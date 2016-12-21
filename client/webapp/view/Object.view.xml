@@ -20,7 +20,7 @@
 							<form:SimpleForm editable="true" layout="ResponsiveGridLayout" breakpointM="300" width="500px" labelSpanM="4" labelSpanL="6"
 								id="detailPanel" class="backgroundForm" labelMinWidth="100">
 								<form:content>
-									<core:Title text="Résumé" id="__title0"/>
+									<core:Title text="Résumé"/>
 									<Label text="Année"/>
 									<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
 										<items>
