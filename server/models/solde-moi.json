@@ -1,0 +1,30 @@
+{
+  "name": "SoldeMoi",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "Year": {
+      "type": "number",
+      "required": true
+    },
+    "Month": {
+      "type": "number",
+      "required": true
+    },
+    "Solde": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

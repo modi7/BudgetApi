@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Affectation": {
+    "dataSource": "sqlite3",
+    "public": true
+  },
+  "Compte": {
+    "dataSource": "sqlite3",
+    "public": true
+  },
+  "Ecriture": {
+    "dataSource": "sqlite3",
+    "public": true
+  },
+  "Balance": {
+    "dataSource": "sqlite3",
+    "public": true
+  },
+  "Repartition": {
+    "dataSource": "sqlite3",
+    "public": true
+  },
+  "SoldeMois": {
+    "dataSource": "sqlite3",
+    "public": true
+  },
+  "monthoperations": {
+    "dataSource": "sqlite3",
+    "public": true
+  },
+  "Cleaffectation": {
+    "dataSource": "sqlite3",
+    "public": true
+  }
+}
