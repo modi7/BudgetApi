@@ -1,0 +1,53 @@
+{
+  "name": "Balance",
+  "plural": "Balance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "Kind": {
+      "type": "string",
+      "required": true
+    },
+    "Records": {
+      "type": "number",
+      "required": true
+    },
+    "Solde": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Ecritures": {
+      "type": "hasMany",
+      "model": "Ecriture",
+      "foreignKey": "CompteId"
+    },
+    "Balance": {
+      "type": "hasOne",
+      "model": "Balance",
+      "foreignKey": "id"
+    },
+    "Repartitions": {
+      "type": "hasMany",
+      "model": "Repartition",
+      "foreignKey": "CompteId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

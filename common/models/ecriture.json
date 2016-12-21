@@ -1,0 +1,50 @@
+{
+  "name": "Ecriture",
+  "plural": "Ecritures",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "CompteId": {
+      "type": "number",
+      "required": true
+    },
+    "Year": {
+      "type": "number",
+      "required": true
+    },
+    "Month": {
+      "type": "number",
+      "required": true
+    },
+    "AffectationId": {
+      "type": "number",
+      "required": true
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Debit": {
+      "type": "number"
+    },
+    "Credit": {
+      "type": "number"
+    },
+    "Carte": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

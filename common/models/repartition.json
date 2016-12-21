@@ -1,0 +1,47 @@
+{
+  "name": "Repartition",
+  "plural": "Repartitions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "CompteId": {
+      "type": "number",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Kind": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "number"
+    },
+    "Month": {
+      "type": "number"
+    },
+    "AffectationId": {
+      "type": "number"
+    },
+    "DescAffectation": {
+      "type": "string"
+    },
+    "Debit": {
+      "type": "number"
+    },
+    "Credit": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

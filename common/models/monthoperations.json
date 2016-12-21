@@ -1,0 +1,43 @@
+{
+  "name": "monthoperations",
+  "plural": "montoperations",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "debut": {
+      "type": "number",
+      "required": true
+    },
+    "fin": {
+      "type": "number",
+      "required": true
+    },
+    "depenses": {
+      "type": "number",
+      "required": true
+    },
+    "epargne": {
+      "type": "number",
+      "required": true
+    },
+    "carte": {
+      "type": "number",
+      "required": true
+    },
+    "solde": {
+      "type": "number",
+      "required": true
+    },
+    "soldefin": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

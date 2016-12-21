@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edmx:Edmx Version="1.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+<edmx:DataServices m:DataServiceVersion="2.0">
+<Schema Namespace="NODATASERVER" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+<EntityType Name="Affectation">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="id" Type="Edm.Int32"/>
+<Property Name="Description" Type="Edm.String"/>
+<Property Name="Kind" Type="Edm.String"/>
+</EntityType>
+<EntityType Name="Compte">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="id" Type="Edm.Int32"/>
+<Property Name="Name" Type="Edm.String"/>
+<Property Name="Description" Type="Edm.String"/>
+<Property Name="Kind" Type="Edm.String"/>
+<NavigationProperty Name="Ecritures" ToRole="Ecriture_Ecriture" FromRole="Compte_Ecritures" Relationship="NODATASERVER.Compte_Ecritures_Ecriture_Ecriture"/>
+<NavigationProperty Name="Balance" ToRole="Balance_Balance" FromRole="Compte_Balance" Relationship="NODATASERVER.Compte_Balance_Balance_Balance"/>
+<NavigationProperty Name="Repartitions" ToRole="Repartition_Repartition" FromRole="Compte_Repartitions" Relationship="NODATASERVER.Compte_Repartitions_Repartition_Repartition"/>
+</EntityType>
+<EntityType Name="Ecriture">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="id" Type="Edm.Int32"/>
+<Property Name="CompteId" Type="Edm.Decimal"/>
+<Property Name="Year" Type="Edm.Decimal"/>
+<Property Name="Month" Type="Edm.Decimal"/>
+<Property Name="AffectationId" Type="Edm.Decimal"/>
+<Property Name="Date" Type="Edm.DateTime"/>
+<Property Name="Description" Type="Edm.String"/>
+<Property Name="Debit" Type="Edm.Decimal"/>
+<Property Name="Credit" Type="Edm.Decimal"/>
+<Property Name="Carte" Type="Edm.String"/>
+</EntityType>
+<EntityType Name="Balance">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="id" Type="Edm.Int32"/>
+<Property Name="Name" Type="Edm.String"/>
+<Property Name="Description" Type="Edm.String"/>
+<Property Name="Kind" Type="Edm.String"/>
+<Property Name="Records" Type="Edm.Decimal"/>
+<Property Name="Solde" Type="Edm.Decimal"/>
+<NavigationProperty Name="Ecritures" ToRole="Ecriture_Ecriture" FromRole="Ecriture_Ecriture" Relationship="NODATASERVER.Compte_Ecritures_Ecriture_Ecriture"/>
+<NavigationProperty Name="Balance" ToRole="Balance_Balance" FromRole="Balance_Balance" Relationship="NODATASERVER.Compte_Balance_Balance_Balance"/>
+<NavigationProperty Name="Repartitions" ToRole="Repartition_Repartition" FromRole="Repartition_Repartition" Relationship="NODATASERVER.Compte_Repartitions_Repartition_Repartition"/>
+</EntityType>
+<EntityType Name="Repartition">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="id" Type="Edm.Int32"/>
+<Property Name="CompteId" Type="Edm.Decimal"/>
+<Property Name="Description" Type="Edm.String"/>
+<Property Name="Kind" Type="Edm.String"/>
+<Property Name="Year" Type="Edm.Decimal"/>
+<Property Name="Month" Type="Edm.Decimal"/>
+<Property Name="AffectationId" Type="Edm.Decimal"/>
+<Property Name="DescAffectation" Type="Edm.String"/>
+<Property Name="Debit" Type="Edm.Decimal"/>
+<Property Name="Credit" Type="Edm.Decimal"/>
+</EntityType>
+<EntityType Name="SoldeMois">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="id" Type="Edm.Int32"/>
+<Property Name="CompteId" Type="Edm.Decimal"/>
+<Property Name="Year" Type="Edm.Decimal"/>
+<Property Name="Month" Type="Edm.Decimal"/>
+<Property Name="SoldeDebut" Type="Edm.Decimal"/>
+<Property Name="Carte" Type="Edm.Decimal"/>
+<Property Name="Depense" Type="Edm.Decimal"/>
+<Property Name="Entrees" Type="Edm.Decimal"/>
+<Property Name="Epargne" Type="Edm.Decimal"/>
+<Property Name="CarteDebite" Type="Edm.Decimal"/>
+<Property Name="SoldeInt" Type="Edm.Decimal"/>
+<Property Name="SoldeFin" Type="Edm.Decimal"/>
+</EntityType>
+<EntityType Name="monthoperations">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="debut" Type="Edm.Decimal"/>
+<Property Name="fin" Type="Edm.Decimal"/>
+<Property Name="depenses" Type="Edm.Decimal"/>
+<Property Name="epargne" Type="Edm.Decimal"/>
+<Property Name="carte" Type="Edm.Decimal"/>
+<Property Name="solde" Type="Edm.Decimal"/>
+<Property Name="soldefin" Type="Edm.Decimal"/>
+<Property Name="id" Type="Edm.Int32"/>
+</EntityType>
+<EntityType Name="Cleaffectation">
+<Key>
+<PropertyRef Name="id"/>
+</Key>
+<Property Name="id" Type="Edm.Int32"/>
+<Property Name="AffectationId" Type="Edm.Decimal"/>
+<Property Name="Text" Type="Edm.String"/>
+</EntityType>
+<Association Name="Compte_Ecritures_Ecriture_Ecriture">
+<End Type="NODATASERVER.Compte" Multiplicity="0..1" Role="Compte_Ecritures"/>
+<End Type="NODATASERVER.Ecriture" Multiplicity="*" Role="Ecriture_Ecriture"/>
+</Association>
+<Association Name="Compte_Balance_Balance_Balance">
+<End Type="NODATASERVER.Compte" Multiplicity="0..1" Role="Compte_Balance"/>
+<End Type="NODATASERVER.Balance" Multiplicity="0..1" Role="Balance_Balance"/>
+</Association>
+<Association Name="Compte_Repartitions_Repartition_Repartition">
+<End Type="NODATASERVER.Compte" Multiplicity="0..1" Role="Compte_Repartitions"/>
+<End Type="NODATASERVER.Repartition" Multiplicity="*" Role="Repartition_Repartition"/>
+</Association>
+<EntityContainer Name="NODATASERVER" m:IsDefaultEntityContainer="true">
+<EntitySet Name="Affectations" EntityType="NODATASERVER.Affectation"/>
+<EntitySet Name="Comptes" EntityType="NODATASERVER.Compte"/>
+<EntitySet Name="Ecritures" EntityType="NODATASERVER.Ecriture"/>
+<EntitySet Name="Balance" EntityType="NODATASERVER.Balance"/>
+<EntitySet Name="Repartitions" EntityType="NODATASERVER.Repartition"/>
+<EntitySet Name="SoldeMois" EntityType="NODATASERVER.SoldeMois"/>
+<EntitySet Name="montoperations" EntityType="NODATASERVER.monthoperations"/>
+<EntitySet Name="Cleaffectations" EntityType="NODATASERVER.Cleaffectation"/>
+<AssociationSet Name="Compte_Ecritures_Ecriture" Association="NODATASERVER.Compte_Ecritures_Ecriture_Ecriture">
+<End Role="Compte_Ecritures" EntitySet="Comptes"/>
+<End Role="Ecriture_Ecriture" EntitySet="Ecritures"/>
+</AssociationSet>
+<AssociationSet Name="Compte_Balance_Balance" Association="NODATASERVER.Compte_Balance_Balance_Balance">
+<End Role="Compte_Balance" EntitySet="Comptes"/>
+<End Role="Balance_Balance" EntitySet="Balance"/>
+</AssociationSet>
+<AssociationSet Name="Compte_Repartitions_Repartition" Association="NODATASERVER.Compte_Repartitions_Repartition_Repartition">
+<End Role="Compte_Repartitions" EntitySet="Comptes"/>
+<End Role="Repartition_Repartition" EntitySet="Repartitions"/>
+</AssociationSet>
+</EntityContainer>
+</Schema>
+</edmx:DataServices>
+</edmx:Edmx>

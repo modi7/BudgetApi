@@ -1,0 +1,1 @@
+<service><id>budgetapi.exe</id><name>BudgetApi</name><description>Api Odata avec SQLITE</description><executable>C:\Program Files (x86)\nodejs\node.exe</executable><arguments>--harmony "C:\Users\aloua\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js" -f "C:\node\odata_sqlite" -l "BudgetApi" -g 0.25 -w 1 -r 3 -a n</arguments><logmode>rotate</logmode></service>

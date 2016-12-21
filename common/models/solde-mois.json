@@ -1,0 +1,55 @@
+{
+  "name": "SoldeMois",
+  "plural": "SoldeMois",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "CompteId": {
+      "type": "number",
+      "required": true
+    },
+    "Year": {
+      "type": "number",
+      "required": true
+    },
+    "Month": {
+      "type": "number",
+      "required": true
+    },
+    "SoldeDebut": {
+      "type": "number"
+    },
+    "Carte": {
+      "type": "number"
+    },
+    "Depense": {
+      "type": "number"
+    },
+    "Entrees": {
+      "type": "number"
+    },
+    "Epargne": {
+      "type": "number"
+    },
+    "CarteDebite": {
+      "type": "number"
+    },
+    "SoldeInt": {
+      "type": "number"
+    },
+    "SoldeFin": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
