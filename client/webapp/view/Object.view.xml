@@ -60,7 +60,7 @@
 							<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="400px" width="550px" vizType="pie" selectData="onSelectData"
 								deselectData="onDeselectData">
 								<viz:dataset>
-									<viz.data:FlattenedDataset data="{Repartitions}" id="vizData">
+									<viz.data:FlattenedDataset data="{ path: 'Repartitions', sorter:{path:'DescAffectation'}}" id="vizData">
 										<viz.data:dimensions>
 											<viz.data:DimensionDefinition name="Type" value="{DescAffectation}"/>
 										</viz.data:dimensions>
