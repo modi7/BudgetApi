@@ -1,12 +1,12 @@
 sap.ui.define([
 	"budget/controller/BaseController",
 	"sap/ui/model/json/JSONModel"
-], function(BaseController, JSONModel) {
+], function (BaseController, JSONModel) {
 	"use strict";
 
 	return BaseController.extend("budget.controller.App", {
 
-		onInit: function() {
+		onInit: function () {
 			var oViewModel,
 				fnSetAppNotBusy,
 				iYear = 2008,
@@ -71,7 +71,7 @@ sap.ui.define([
 			});
 			this.setModel(oViewModel, "appView");
 
-			fnSetAppNotBusy = function() {
+			fnSetAppNotBusy = function () {
 				oViewModel.setProperty("/busy", false);
 				oViewModel.setProperty("/delay", iOriginalBusyDelay);
 				var oModel = this.getOwnerComponent().getModel();
@@ -80,10 +80,11 @@ sap.ui.define([
 					descending: false
 				});
 				oModel.read(
-				"/Affectations",
-				{	success: this._onSuccess.bind(this),
-					sorters: [oSorter]
-				});
+					"/Affectations",
+					{
+						success: this._onSuccess.bind(this),
+						sorters: [oSorter]
+					});
 				oModel.read("/Cleaffectations", {
 					success: this._onSuccessAff.bind(this)
 				});
@@ -91,17 +92,17 @@ sap.ui.define([
 			};
 
 			this.getOwnerComponent().getModel().metadataLoaded().
-			then(fnSetAppNotBusy.bind(this));
+				then(fnSetAppNotBusy.bind(this));
 			this.getOwnerComponent().getModel().setUseBatch(false);
 			// apply content density mode to root view
 			this.getView().addStyleClass("sapUiSizeCompact");
 		},
 
-		_onSuccess: function(response) {
+		_onSuccess: function (response) {
 			this.getModel("appView").setProperty("/Affectations", response.results);
 		},
 
-		_onSuccessAff: function(response) {
+		_onSuccessAff: function (response) {
 			this.getModel("appView").setProperty("/Cleaffectations", response.results);
 		}
 

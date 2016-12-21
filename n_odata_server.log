@@ -4434,3 +4434,210 @@ Error: SQLITE_ERROR: no such function: regexp
 [2016-12-21 18:12:48.921] [INFO] odata - processing OData V2 request of type GET
 [2016-12-21 18:12:48.922] [DEBUG] odata - baseUrl = /odata/Balance(2)/Repartitions
 [2016-12-21 18:12:48.924] [INFO] console - filter: {"where":{"and":[{"and":[{"Year":"2016"},{"Month":"11"}]},{"CompteId":"2"}]},"limit":"100","skip":"0"}
+[2016-12-21 23:08:24.423] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:82:15)
+[2016-12-21 23:08:24.493] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:82:15)
+[2016-12-21 23:08:24.499] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:82:15)
+[2016-12-21 23:08:24.502] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:82:15)
+[2016-12-21 23:08:24.533] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:82:15)
+[2016-12-21 23:08:24.564] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:24.564] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-21 23:08:24.565] [TRACE] metadata - entering buildMetadata
+[2016-12-21 23:08:24.574] [TRACE] metadata - metadata xml build
+[2016-12-21 23:08:24.609] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:82:15)
+[2016-12-21 23:08:24.614] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:77:13)
+    at SendStream.emit (events.js:169:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:82:15)
+[2016-12-21 23:08:24.666] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:24.667] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-21 23:08:24.670] [INFO] console - filter: {"limit":1000}
+[2016-12-21 23:08:24.671] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:24.672] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-21 23:08:24.673] [INFO] console - filter: {"limit":1000}
+[2016-12-21 23:08:24.838] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:24.838] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-21 23:08:24.840] [INFO] console - filter: {"limit":"100","skip":"0"}
+[2016-12-21 23:08:27.498] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:27.498] [DEBUG] odata - baseUrl = /odata/SoldeMois(2201612)
+[2016-12-21 23:08:27.500] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:27.500] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:08:27.505] [INFO] console - filter: {"where":{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"CompteId":"2"}]},"limit":"151","skip":"0"}
+[2016-12-21 23:08:27.514] [INFO] console - {"CompteId":2,"Year":2016,"Month":12,"id":2201612,"Carte":1316.01,"CarteDebite":0,"Depense":1687.85,"Entrees":5230.98,"Epargne":1000,"SoldeDebut":929.2300000000118}
+[2016-12-21 23:08:27.954] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:27.954] [DEBUG] odata - baseUrl = /odata/Balance(2)/Repartitions
+[2016-12-21 23:08:27.956] [INFO] console - filter: {"where":{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"CompteId":"2"}]},"limit":"100","skip":"0"}
+[2016-12-21 23:08:38.991] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:38.991] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:08:38.993] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"1"}]},{"CompteId":"2"}]},"limit":"170","skip":"0"}
+[2016-12-21 23:08:43.549] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:43.550] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:08:43.552] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"3"}]},{"CompteId":"2"}]},"limit":"152","skip":"0"}
+[2016-12-21 23:08:47.759] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:47.759] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:08:47.762] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"4"}]},{"CompteId":"2"}]},"limit":"153","skip":"0"}
+[2016-12-21 23:08:52.904] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:52.904] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:08:52.906] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"5"}]},{"CompteId":"2"}]},"limit":"163","skip":"0"}
+[2016-12-21 23:08:55.717] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:55.717] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:08:55.719] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"17"}]},{"CompteId":"2"}]},"limit":"160","skip":"0"}
+[2016-12-21 23:08:59.703] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:08:59.703] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:08:59.706] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"6"}]},{"CompteId":"2"}]},"limit":"151","skip":"0"}
+[2016-12-21 23:09:03.497] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:03.497] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:03.499] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"9"}]},{"CompteId":"2"}]},"limit":"152","skip":"0"}
+[2016-12-21 23:09:14.735] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:14.735] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:14.737] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"16"}]},{"CompteId":"2"}]},"limit":"156","skip":"0"}
+[2016-12-21 23:09:20.286] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:20.287] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:20.289] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"11"}]},{"CompteId":"2"}]},"limit":"155","skip":"0"}
+[2016-12-21 23:09:27.115] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:27.115] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:27.118] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"12"}]},{"CompteId":"2"}]},"limit":"151","skip":"0"}
+[2016-12-21 23:09:29.474] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:29.474] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:29.476] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"13"}]},{"CompteId":"2"}]},"limit":"151","skip":"0"}
+[2016-12-21 23:09:33.083] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:33.083] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:33.085] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"15"}]},{"CompteId":"2"}]},"limit":"154","skip":"0"}
+[2016-12-21 23:09:50.293] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:50.294] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:50.296] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"3"}]},{"CompteId":"2"}]},"limit":"165","skip":"0"}
+[2016-12-21 23:09:53.677] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:09:53.678] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:09:53.680] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"AffectationId":"18"}]},{"CompteId":"2"}]},"limit":"153","skip":"0"}
+[2016-12-21 23:10:03.438] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:03.438] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:03.441] [INFO] console - filter: {"where":{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"CompteId":"2"}]},"limit":"153","skip":"0"}
+[2016-12-21 23:10:03.442] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:03.443] [DEBUG] odata - baseUrl = /odata/SoldeMois(220161)
+[2016-12-21 23:10:03.454] [INFO] console - {"CompteId":2,"Year":2016,"Month":1,"id":220161,"Carte":0,"CarteDebite":0,"Depense":5741.3499999999985,"Entrees":6782.78,"Epargne":1000,"SoldeDebut":363.7100000000089}
+[2016-12-21 23:10:03.493] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:03.494] [DEBUG] odata - baseUrl = /odata/Balance(2)/Repartitions
+[2016-12-21 23:10:03.496] [INFO] console - filter: {"where":{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"CompteId":"2"}]},"limit":"100","skip":"0"}
+[2016-12-21 23:10:16.450] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:16.450] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:16.453] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"2"}]},{"CompteId":"2"}]},"limit":"170","skip":"0"}
+[2016-12-21 23:10:19.984] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:19.984] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:19.986] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"3"}]},{"CompteId":"2"}]},"limit":"152","skip":"0"}
+[2016-12-21 23:10:22.783] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:22.783] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:22.786] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"4"}]},{"CompteId":"2"}]},"limit":"151","skip":"0"}
+[2016-12-21 23:10:28.716] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:28.717] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:28.719] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"5"}]},{"CompteId":"2"}]},"limit":"156","skip":"0"}
+[2016-12-21 23:10:31.802] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:31.802] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:31.805] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"17"}]},{"CompteId":"2"}]},"limit":"158","skip":"0"}
+[2016-12-21 23:10:38.091] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:38.091] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:38.092] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"7"}]},{"CompteId":"2"}]},"limit":"151","skip":"0"}
+[2016-12-21 23:10:42.014] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:42.014] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:42.016] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"9"}]},{"CompteId":"2"}]},"limit":"152","skip":"0"}
+[2016-12-21 23:10:45.336] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:45.336] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:45.339] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"10"}]},{"CompteId":"2"}]},"limit":"160","skip":"0"}
+[2016-12-21 23:10:52.212] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:52.212] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:52.215] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"16"}]},{"CompteId":"2"}]},"limit":"153","skip":"0"}
+[2016-12-21 23:10:55.727] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:55.727] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:55.731] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"11"}]},{"CompteId":"2"}]},"limit":"152","skip":"0"}
+[2016-12-21 23:10:57.782] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:10:57.782] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:10:57.785] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"13"}]},{"CompteId":"2"}]},"limit":"152","skip":"0"}
+[2016-12-21 23:11:01.506] [INFO] odata - processing OData V2 request of type GET
+[2016-12-21 23:11:01.506] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-21 23:11:01.508] [INFO] console - filter: {"where":{"and":[{"and":[{"and":[{"Year":"2016"},{"Month":"1"}]},{"AffectationId":"15"}]},{"CompteId":"2"}]},"limit":"153","skip":"0"}
