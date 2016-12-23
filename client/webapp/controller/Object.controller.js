@@ -595,7 +595,7 @@ sap.ui.define([
             //	oPopOver.setFormatString("__UI5__FloatMaxFraction2");
             oVizFrame.setVizProperties({
                 title: {
-                    visible: true,
+                    visible: false,
                     text: 'Répartition'
                 },
                 interaction: {
@@ -608,7 +608,9 @@ sap.ui.define([
                     visible: true,
                     formatString: "__UI5__FloatMaxFraction2",
                     bodyDimensionLabel: "Type",
-                    bodyDimensionValue: "Type"
+                    bodyDimensionValue: "Type",
+                    bodyMesureValue:"Crédit",
+                     bodyMesureLabel:"Crédit",
                 },
                 legend: {
                     visible: false
