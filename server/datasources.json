@@ -1,12 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "sqlite3": {
-    "name": "sqlite3",
-    "connector": "loopback-connector-sqlite",
-    "file_name": "storage/data.sqlite",
-    "debug": false
-  }
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "sqlite3": {
+        "name": "sqlite3",
+        "connector": "loopback-connector-sqlite",
+        "file_name": "storage/data.sqlite",
+        "debug": false
+    }
 }
