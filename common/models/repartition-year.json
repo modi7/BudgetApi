@@ -1,0 +1,45 @@
+{
+    "name": "RepartitionYear",
+    "plural": "RepartitionYear",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "CompteId": {
+            "type": "number",
+            "required": true
+        },
+        "Description": {
+            "type": "string"
+        },
+        "Kind": {
+            "type": "string"
+        },
+        "Year": {
+            "type": "number",
+            "required": true
+        },
+        "Month": {
+            "type": "number",
+            "required": true
+        },
+        "Debit": {
+            "type": "number"
+        },
+        "Credit": {
+            "type": "number"
+        },
+        "Solde": {
+            "type": "number"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

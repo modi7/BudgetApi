@@ -25,21 +25,23 @@
 					</ComboBox>
 				</sap.ui.layout.form:content>
 			</sap.ui.layout.form:SimpleForm>
-			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height='85%' width="100%" vizType='combination'>
+			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height='85%' width="55%" vizType='combination'>
 				<viz:dataset>
-					<viz.data:FlattenedDataset data="{ path: '/Repartitions', sorter:{path:'Month'}}" id="vizData">
+					<viz.data:FlattenedDataset data="{ path: '/RepartitionYear', sorter:{path:'Month'}}" id="vizData">
 						<viz.data:dimensions>
 							<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
 						</viz.data:dimensions>
 						<viz.data:measures>
 							<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
 							<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
+							<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
 						</viz.data:measures>
 					</viz.data:FlattenedDataset>
 				</viz:dataset>
 				<viz:feeds>
 					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
 					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
+					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
 					<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
 				</viz:feeds>
 			</viz:VizFrame>

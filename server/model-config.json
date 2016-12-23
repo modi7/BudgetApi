@@ -63,5 +63,9 @@
   "Cleaffectation": {
     "dataSource": "sqlite3",
     "public": true
+  },
+  "RepartitionYear": {
+    "dataSource": "sqlite3",
+    "public": true
   }
 }
