@@ -83,8 +83,7 @@
 						"sap-documentation": "heading"
 					},
 					"defaultBindingMode": "TwoWay",
-					"defaultUpdateMethod": "PUT",
-					"defaultCountMode": "Inline"
+					"defaultUpdateMethod": "PUT"
 				},
 				"preload": true
 			}

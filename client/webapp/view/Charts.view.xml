@@ -3,44 +3,31 @@
 	controllerName="budget.controller.Charts">
 	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page0">
 		<sap.m.semantic:content>
-			<!--			<Panel id="__panel0" headerText="Sélection">
-				<content>
-					<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
-						<items>
-							<core:ListItem text="{appView>description}" key="{appView>id}"/>
-						</items>
-					</ComboBox>
-					<ComboBox items="{appView>/months}" maxWidth="" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
-						<items>
-							<core:ListItem text="{appView>description}" key="{appView>id}"/>
-						</items>
-					</ComboBox>
-				</content>
-			</Panel>-->
-			<sap.ui.layout.form:SimpleForm editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="__form0">
+
+			<sap.ui.layout.form:SimpleForm width="50%" editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="__form0">
 				<sap.ui.layout.form:content>
 					<Label text="Comptes"/>
-					<ComboBox items="{/Balance}" maxWidth="" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
+					<ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
 						<items>
-							<core:ListItem text="{Description}" key="{Name}"/>
+							<core:ListItem text="{Description}" key="{Id}"/>
 						</items>
 					</ComboBox>
 					<Label text="Période"/>
-					<ComboBox items="{appView>/years}" maxWidth="" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
+					<ComboBox items="{appView>/years}" maxWidth="16rem" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
 						<items>
 							<core:ListItem text="{appView>description}" key="{appView>id}"/>
 						</items>
 					</ComboBox>
-					<ComboBox items="{appView>/months}" maxWidth="" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
+					<ComboBox items="{appView>/months}" maxWidth="16rem" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
 						<items>
 							<core:ListItem text="{appView>description}" key="{appView>id}"/>
 						</items>
 					</ComboBox>
 				</sap.ui.layout.form:content>
 			</sap.ui.layout.form:SimpleForm>
-			<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height='100%' width="100%" vizType='combination'>
+			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height='85%' width="100%" vizType='combination'>
 				<viz:dataset>
-					<viz.data:FlattenedDataset data="{ path: '/Repartitions', sorter:{path:'DescAffectation'}}">
+					<viz.data:FlattenedDataset data="{ path: '/Repartitions', sorter:{path:'Month'}}" id="vizData">
 						<viz.data:dimensions>
 							<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
 						</viz.data:dimensions>
