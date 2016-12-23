@@ -121,6 +121,12 @@
 				"titleTarget": "",
 				"greedy": false,
 				"target": ["upload"]
+			}, {
+				"name": "charts",
+				"pattern": "Cchart",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["charts"]
 			}],
 			"targets": {
 				"worklist": {
@@ -154,6 +160,13 @@
 					"viewName": "CcDetermination",
 					"viewLevel": 2,
 					"viewId": "detAffectation"
+				},
+				"charts": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Charts",
+					"viewLevel": 1
 				}
 			}
 		},

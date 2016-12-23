@@ -1,0 +1,23 @@
+{
+  "run": [
+    {
+      "filePath": "/client/webapp/test/mockServer.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "urlParametersNotNeeded": false,
+      "_metadata": {
+        "id": 4811469,
+        "runnerId": "webapprunner",
+        "displayName": "Configuration",
+        "lastRunTimeStamp": 1482513941618
+      }
+    }
+  ]
+}
