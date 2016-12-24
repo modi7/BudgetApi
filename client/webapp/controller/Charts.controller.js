@@ -5,7 +5,9 @@ sap.ui.define([
     "sap/ui/model/Filter",
     "sap/ui/model/FilterOperator",
     "budget/model/formatter",
-], function(BaseController, JSONModel, History, Filter, FilterOperator, formatter) {
+    'sap/viz/ui5/format/ChartFormatter',
+    'sap/viz/ui5/api/env/Format'	
+], function(BaseController, JSONModel, History, Filter, FilterOperator, formatter, ChartFormatter, Format) {
 	"use strict";
 
 	return BaseController.extend("budget.controller.Charts", {
@@ -15,9 +17,10 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf budget.client..view.Charts
 		 */
-		//	onInit: function() {
-		//
-		//	},
+			onInit: function() {
+		
+		            this._initViz();
+			},
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
@@ -62,7 +65,86 @@ sap.ui.define([
                 and: true
             });
 			this.byId("vizData").getBinding("data").filter(oFilter);
+			this.byId("vizDataRep").getBinding("data").filter(oFilter);
         },
+
+		        _initViz: function() {
+
+            var oVizFrameYear = this.oVizFrame = this.getView().byId("idVizYear");
+			var oVizFrameRep = this.oVizFrame = this.getView().byId("idVizRep");
+            //	var oPopOver = this.getView().byId("idPopOver");
+            //	oPopOver.connect(oVizFrame.getVizUid());
+            //	oPopOver.setFormatString("__UI5__FloatMaxFraction2");
+            oVizFrameYear.setVizProperties({
+                title: {
+                    visible: false,
+                    text: 'Répartition'
+                },
+                interaction: {
+                    behaviorType: null,
+                    selectability: {
+                        mode: "SINGLE"
+                    }
+                },
+                tooltip: {
+                    visible: false,
+                    formatString: "__UI5__FloatMaxFraction2",
+                    bodyDimensionLabel: "Type",
+                    bodyDimensionValue: "Type",
+                    bodyMesureValue:"Crédit",
+                     bodyMesureLabel:"Crédit",
+                },
+                legend: {
+                    visible: false
+                }
+
+            });
+
+           oVizFrameRep.setVizProperties({
+                title: {
+                    visible: false,
+                    text: 'Répartition'
+                },
+                interaction: {
+                    behaviorType: null,
+                    selectability: {
+                        mode: "SINGLE"
+                    }
+                },
+				   plotArea: {
+                        dataLabel: {
+                            visible: true,
+							formatString: "__UI5__FloatMaxFraction2",
+                        }
+                    },
+                tooltip: {
+                    visible: true,
+                    formatString: "__UI5__FloatMaxFraction2",
+                    bodyDimensionLabel: "Affectation",
+                    bodyDimensionValue: "Affectation",
+                },
+                legend: {
+                    visible: false
+                }
+
+            });
+
+            this._initCustomFormat();
+        },
+
+        _initCustomFormat: function() {
+            var chartFormatter = this.chartFormatter = ChartFormatter.getInstance();
+            chartFormatter.registerCustomFormatter("__UI5__FloatMaxFraction2",
+                function(value) {
+                    var fixedFloat = sap.ui.core.format.NumberFormat.getFloatInstance({
+                        style: 'Standard',
+                        maxFractionDigits: 2,
+                        minFractionDigits: 2
+                    });
+                    return fixedFloat.format(value);
+                });
+            Format.numericFormatter(chartFormatter);
+        },		
 	});
 
 });

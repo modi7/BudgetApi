@@ -101,6 +101,7 @@ sap.ui.define([
                 this._newDialog = sap.ui.xmlfragment(this.getView().getId(), "budget.fragment.newEcriture", this);
                 this.getView().addDependent(this._newDialog);
             }
+            
             var oViewModel = this.getModel("objectView");
             var oLocData = {
                 montant: null,
