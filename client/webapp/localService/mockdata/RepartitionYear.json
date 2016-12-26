@@ -1,0 +1,1387 @@
+[{
+			"id": 2200910,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 10,
+			"Debit": 4449.950000000002,
+			"Credit": 3565.72,
+			"Solde": -884.2299999999998,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2200910)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2200911,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 11,
+			"Debit": 3726.1699999999996,
+			"Credit": 5165.03,
+			"Solde": 1438.8599999999997,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2200911)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2200912,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 12,
+			"Debit": 4501.01,
+			"Credit": 4356.59,
+			"Solde": -144.41999999999965,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2200912)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220092,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 2,
+			"Debit": 1332.2,
+			"Credit": null,
+			"Solde": -1332.2,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220092)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220093,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 3,
+			"Debit": 2933.6400000000003,
+			"Credit": 3116.22,
+			"Solde": 182.5800000000003,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220093)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220094,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 4,
+			"Debit": 2469.7000000000007,
+			"Credit": 3347.99,
+			"Solde": 878.2899999999992,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220094)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220095,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 5,
+			"Debit": 3428.810000000001,
+			"Credit": 8011.860000000001,
+			"Solde": 4583.050000000003,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220095)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220096,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 6,
+			"Debit": 4407.1,
+			"Credit": 3356.22,
+			"Solde": -1050.8800000000006,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220096)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220097,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 7,
+			"Debit": 3342.9099999999994,
+			"Credit": 3356.22,
+			"Solde": 13.310000000000006,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220097)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220098,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 8,
+			"Debit": 2771.9900000000002,
+			"Credit": 4070.32,
+			"Solde": 1298.3299999999997,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220098)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220099,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2009,
+			"Month": 9,
+			"Debit": 2598.8499999999995,
+			"Credit": 3356.22,
+			"Solde": 757.3700000000006,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220099)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220101,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 1,
+			"Debit": 3723.6400000000003,
+			"Credit": 5387.54,
+			"Solde": 1663.9000000000015,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220101)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201010,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 10,
+			"Debit": 3977.03,
+			"Credit": 3955.88,
+			"Solde": -21.14999999999943,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201010)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201011,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 11,
+			"Debit": 4522.569999999999,
+			"Credit": 4357.77,
+			"Solde": -164.79999999999967,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201011)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201012,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 12,
+			"Debit": 4154.680000000003,
+			"Credit": 4636.49,
+			"Solde": 481.8099999999998,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201012)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220102,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 2,
+			"Debit": 3464.16,
+			"Credit": 4445.66,
+			"Solde": 981.4999999999984,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220102)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220103,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 3,
+			"Debit": 3282.1800000000007,
+			"Credit": 4139.44,
+			"Solde": 857.2599999999994,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220103)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220104,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 4,
+			"Debit": 3196.22,
+			"Credit": 4380.08,
+			"Solde": 1183.8599999999994,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220104)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220105,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 5,
+			"Debit": 3617.0300000000007,
+			"Credit": 4453.79,
+			"Solde": 836.76,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220105)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220106,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 6,
+			"Debit": 3333.2599999999993,
+			"Credit": 4016.49,
+			"Solde": 683.2300000000005,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220106)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220107,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 7,
+			"Debit": 6352.269999999998,
+			"Credit": 4640.849999999999,
+			"Solde": -1711.420000000001,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220107)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220108,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 8,
+			"Debit": 4941.110000000001,
+			"Credit": 5642.719999999999,
+			"Solde": 701.6100000000031,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220108)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220109,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2010,
+			"Month": 9,
+			"Debit": 3281.7699999999995,
+			"Credit": 4110.49,
+			"Solde": 828.7200000000003,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220109)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220111,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 1,
+			"Debit": 5359.12,
+			"Credit": 5335.83,
+			"Solde": -23.289999999999033,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220111)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201110,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 10,
+			"Debit": 3695.4700000000007,
+			"Credit": 4457.68,
+			"Solde": 762.2099999999999,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201110)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201111,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 11,
+			"Debit": 4032.43,
+			"Credit": 4665.15,
+			"Solde": 632.7199999999995,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201111)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201112,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 12,
+			"Debit": 5077.32,
+			"Credit": 5762.48,
+			"Solde": 685.159999999999,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201112)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220112,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 2,
+			"Debit": 6339,
+			"Credit": 5200.58,
+			"Solde": -1138.4199999999996,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220112)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220113,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 3,
+			"Debit": 4298.96,
+			"Credit": 6745.74,
+			"Solde": 2446.7800000000007,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220113)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220114,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 4,
+			"Debit": 4232.870000000001,
+			"Credit": 5247.64,
+			"Solde": 1014.7699999999991,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220114)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220115,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 5,
+			"Debit": 7469.65,
+			"Credit": 9571.720000000001,
+			"Solde": 2102.07,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220115)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220116,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 6,
+			"Debit": 2997.5999999999985,
+			"Credit": 4997.900000000001,
+			"Solde": 2000.2999999999997,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220116)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220117,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 7,
+			"Debit": 3562.1699999999996,
+			"Credit": 5054.669999999999,
+			"Solde": 1492.5,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220117)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220118,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 8,
+			"Debit": 2379.879999999999,
+			"Credit": 5814.4400000000005,
+			"Solde": 3434.5600000000013,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220118)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220119,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2011,
+			"Month": 9,
+			"Debit": 3621.61,
+			"Credit": 4828.889999999999,
+			"Solde": 1207.2799999999997,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220119)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220121,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 1,
+			"Debit": 3593.429999999999,
+			"Credit": 5412.99,
+			"Solde": 1819.5600000000024,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220121)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201210,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 10,
+			"Debit": 1146.2300000000002,
+			"Credit": 4059.0600000000004,
+			"Solde": 2912.83,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201210)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220122,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 2,
+			"Debit": 4319.44,
+			"Credit": 4689.370000000001,
+			"Solde": 369.93000000000006,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220122)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220123,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 3,
+			"Debit": 3318.0800000000004,
+			"Credit": 4738.79,
+			"Solde": 1420.7099999999969,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220123)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220124,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 4,
+			"Debit": 4647.11,
+			"Credit": 5376.400000000001,
+			"Solde": 729.2900000000017,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220124)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220125,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 5,
+			"Debit": 4478.22,
+			"Credit": 7021.09,
+			"Solde": 2542.870000000001,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220125)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220126,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 6,
+			"Debit": 2232.3500000000004,
+			"Credit": 4635.93,
+			"Solde": 2403.58,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220126)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220127,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 7,
+			"Debit": 2641.1500000000015,
+			"Credit": 5065.47,
+			"Solde": 2424.319999999999,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220127)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220128,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 8,
+			"Debit": 6515.509999999999,
+			"Credit": 5850.39,
+			"Solde": -665.1199999999969,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220128)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220129,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2012,
+			"Month": 9,
+			"Debit": 2343.6000000000004,
+			"Credit": 5898.7,
+			"Solde": 3555.100000000003,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220129)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220131,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 1,
+			"Debit": 2084.42,
+			"Credit": null,
+			"Solde": -2084.42,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220131)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201310,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 10,
+			"Debit": 2981.2800000000007,
+			"Credit": 5674.629999999999,
+			"Solde": 2693.3499999999995,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201310)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201311,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 11,
+			"Debit": 4722.329999999998,
+			"Credit": 4856.360000000001,
+			"Solde": 134.0300000000011,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201311)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201312,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 12,
+			"Debit": 4651.030000000001,
+			"Credit": 5607.5,
+			"Solde": 956.4699999999996,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201312)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220132,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 2,
+			"Debit": 8707.66,
+			"Credit": 5547.799999999999,
+			"Solde": -3159.8599999999997,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220132)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220133,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 3,
+			"Debit": 3597.54,
+			"Credit": 5496.95,
+			"Solde": 1899.4099999999994,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220133)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220134,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 4,
+			"Debit": 5180.519999999999,
+			"Credit": 5491.25,
+			"Solde": 310.7300000000009,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220134)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220135,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 5,
+			"Debit": 2654.0099999999998,
+			"Credit": 8223.65,
+			"Solde": 5569.64,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220135)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220136,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 6,
+			"Debit": 5252.34,
+			"Credit": 5619.41,
+			"Solde": 367.06999999999925,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220136)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220137,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 7,
+			"Debit": 4497.540000000001,
+			"Credit": 5923.02,
+			"Solde": 1425.4799999999996,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220137)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220138,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 8,
+			"Debit": 3259.5900000000006,
+			"Credit": 6753.5599999999995,
+			"Solde": 3493.9700000000007,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220138)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220139,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2013,
+			"Month": 9,
+			"Debit": 3197.1799999999994,
+			"Credit": 5735.16,
+			"Solde": 2537.98,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220139)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220141,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 1,
+			"Debit": 4622.85,
+			"Credit": 6179.009999999999,
+			"Solde": 1556.1600000000021,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220141)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201410,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 10,
+			"Debit": 4012.2399999999993,
+			"Credit": 5597.63,
+			"Solde": 1585.3900000000006,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201410)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201411,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 11,
+			"Debit": 3790.919999999999,
+			"Credit": 5486.9400000000005,
+			"Solde": 1696.02,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201411)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201412,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 12,
+			"Debit": 4774.659999999999,
+			"Credit": 5616.08,
+			"Solde": 841.4200000000001,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201412)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220142,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 2,
+			"Debit": 3689.0099999999998,
+			"Credit": 5383.1,
+			"Solde": 1694.0900000000001,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220142)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220143,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 3,
+			"Debit": 4206.869999999999,
+			"Credit": 5365.73,
+			"Solde": 1158.86,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220143)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220144,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 4,
+			"Debit": 4345.37,
+			"Credit": 5337.8099999999995,
+			"Solde": 992.4400000000003,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220144)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220145,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 5,
+			"Debit": 3015.7500000000005,
+			"Credit": 5303.36,
+			"Solde": 2287.6099999999997,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220145)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220146,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 6,
+			"Debit": 4279.719999999999,
+			"Credit": 5802.289999999999,
+			"Solde": 1522.5699999999993,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220146)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220147,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 7,
+			"Debit": 5668.98,
+			"Credit": 6511.37,
+			"Solde": 842.3900000000024,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220147)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220148,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 8,
+			"Debit": 4248.490000000001,
+			"Credit": 7463.6900000000005,
+			"Solde": 3215.200000000005,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220148)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220149,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2014,
+			"Month": 9,
+			"Debit": 3937.0899999999992,
+			"Credit": 5362.92,
+			"Solde": 1425.8300000000002,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220149)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220151,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 1,
+			"Debit": 2222.969999999998,
+			"Credit": 6691.870000000001,
+			"Solde": 4468.900000000001,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220151)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201510,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 10,
+			"Debit": 3841.289999999998,
+			"Credit": 4761.7699999999995,
+			"Solde": 920.4799999999998,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201510)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201511,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 11,
+			"Debit": 3778.1700000000005,
+			"Credit": 5424.2699999999995,
+			"Solde": 1646.0999999999992,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201511)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201512,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 12,
+			"Debit": 3743.689999999999,
+			"Credit": 5476.85,
+			"Solde": 1733.1600000000014,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201512)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220152,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 2,
+			"Debit": 3852.3599999999983,
+			"Credit": 5642.87,
+			"Solde": 1790.5100000000004,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220152)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220153,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 3,
+			"Debit": 5103.839999999998,
+			"Credit": 5663.46,
+			"Solde": 559.6199999999986,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220153)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220154,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 4,
+			"Debit": 5085.03,
+			"Credit": 5714.79,
+			"Solde": 629.7599999999998,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220154)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220155,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 5,
+			"Debit": 4448.600000000001,
+			"Credit": 5682.14,
+			"Solde": 1233.5399999999995,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220155)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220156,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 6,
+			"Debit": 4610.569999999998,
+			"Credit": 5638.929999999999,
+			"Solde": 1028.36,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220156)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220157,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 7,
+			"Debit": 4364.649999999998,
+			"Credit": 5837.049999999999,
+			"Solde": 1472.4000000000012,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220157)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220158,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 8,
+			"Debit": 7150.780000000001,
+			"Credit": 6789.5199999999995,
+			"Solde": -361.260000000001,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220158)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220159,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2015,
+			"Month": 9,
+			"Debit": 4418.909999999998,
+			"Credit": 5938.820000000001,
+			"Solde": 1519.9100000000021,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220159)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220161,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 1,
+			"Debit": 5741.3499999999985,
+			"Credit": 6782.78,
+			"Solde": 1041.4300000000017,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220161)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201610,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 10,
+			"Debit": 5298.209999999997,
+			"Credit": 5284.61,
+			"Solde": -13.600000000000023,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201610)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201611,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 11,
+			"Debit": 3647.9899999999993,
+			"Credit": 5254.41,
+			"Solde": 1606.4200000000005,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201611)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 2201612,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 12,
+			"Debit": 3918.949999999999,
+			"Credit": 5225.88,
+			"Solde": 1306.93,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(2201612)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220162,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 2,
+			"Debit": 6765.18,
+			"Credit": 5180.5,
+			"Solde": -1584.6799999999996,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220162)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220163,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 3,
+			"Debit": 4489.209999999999,
+			"Credit": 5701.02,
+			"Solde": 1211.8099999999995,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220163)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220164,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 4,
+			"Debit": 3682.8999999999996,
+			"Credit": 5666.59,
+			"Solde": 1983.6900000000012,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220164)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220165,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 5,
+			"Debit": 5346.78,
+			"Credit": 6376.46,
+			"Solde": 1029.6800000000014,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220165)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220166,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 6,
+			"Debit": 3836.1499999999996,
+			"Credit": 6634.52,
+			"Solde": 2798.370000000001,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220166)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220167,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 7,
+			"Debit": 9448.340000000002,
+			"Credit": 6626.639999999999,
+			"Solde": -2821.7000000000035,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220167)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220168,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 8,
+			"Debit": 9681.490000000003,
+			"Credit": 7845.52,
+			"Solde": -1835.969999999999,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220168)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 220169,
+			"CompteId": 2,
+			"Description": "BOURSORAMA ESSENTIEL",
+			"Kind": "N",
+			"Year": 2016,
+			"Month": 9,
+			"Debit": 4602.099999999998,
+			"Credit": 5774.53,
+			"Solde": 1172.4299999999996,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(220169)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 520093,
+			"CompteId": 5,
+			"Description": "LIVRET A",
+			"Kind": "E",
+			"Year": 2009,
+			"Month": 3,
+			"Debit": 2000,
+			"Credit": null,
+			"Solde": -2000,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(520093)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 5201312,
+			"CompteId": 5,
+			"Description": "LIVRET A",
+			"Kind": "E",
+			"Year": 2013,
+			"Month": 12,
+			"Debit": null,
+			"Credit": 17674.19,
+			"Solde": 17674.19,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(5201312)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 5201610,
+			"CompteId": 5,
+			"Description": "LIVRET A",
+			"Kind": "E",
+			"Year": 2016,
+			"Month": 10,
+			"Debit": 17122.56,
+			"Credit": null,
+			"Solde": -17122.56,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(5201610)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 6201312,
+			"CompteId": 6,
+			"Description": "COMPTE SUR LIVRET",
+			"Kind": "E",
+			"Year": 2013,
+			"Month": 12,
+			"Debit": null,
+			"Credit": 453.42,
+			"Solde": 453.42,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(6201312)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 720142,
+			"CompteId": 7,
+			"Description": "Livret DEV durable Boursorama",
+			"Kind": "E",
+			"Year": 2014,
+			"Month": 2,
+			"Debit": null,
+			"Credit": 4061.94,
+			"Solde": 4061.94,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(720142)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}, {
+			"id": 7201610,
+			"CompteId": 7,
+			"Description": "Livret DEV durable Boursorama",
+			"Kind": "E",
+			"Year": 2016,
+			"Month": 10,
+			"Debit": 3961.94,
+			"Credit": null,
+			"Solde": -3961.94,
+			"__metadata": {
+				"uri": "http://localhost:3000/odata/RepartitionYear(7201610)",
+				"type": "NODATASERVER.RepartitionYear"
+			}
+		}]

@@ -5,5 +5,8 @@
       "templateVersion": "1.4.0",
       "dateTimeStamp": "Fri, 23 Dec 2016 17:04:44 GMT"
     }
-  ]
+  ],
+  "mockpreview": {
+    "loadJSONFiles": true
+  }
 }
