@@ -25,9 +25,9 @@
 					</ComboBox>
 				</sap.ui.layout.form:content>
 			</sap.ui.layout.form:SimpleForm>
-			<!--<HBox displayInline="true" fitContainer="true" justifyContent="SpaceBetween" height="82%">
-				<items>			-->
-			<viz:VizFrame id="idVizRep" uiConfig="{applicationSet:'fiori'}" height='85%' width="45%" vizType='stacked_column'>
+			<HBox height="400px">
+				<items>			
+			<viz:VizFrame id="idVizRep" uiConfig="{applicationSet:'fiori'}" height='100%' width="45%" vizType='stacked_column'>
 				<viz:dataset>
 					<viz.data:FlattenedDataset data="{ path: '/Repartitions', sorter:[{path:'DescAffectation'},{path:'Month'}]}"  id="vizDataRep">
 						<viz.data:dimensions>
@@ -46,7 +46,7 @@
 					<viz.feeds:FeedItem uid="color" type="Dimension" values="Affectation"/>
 				</viz:feeds>
 			</viz:VizFrame>
-			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height='85%' width="45%" vizType='combination'>
+			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height='100%' width="45%" vizType='combination'>
 				<viz:dataset>
 					<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
 						<viz.data:dimensions>
@@ -66,8 +66,8 @@
 					<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
 				</viz:feeds>
 			</viz:VizFrame>
-				<!--</items>
-			</HBox>-->
+				</items>
+			</HBox>
 
 
 		</sap.m.semantic:content>
