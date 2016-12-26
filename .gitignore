@@ -9,11 +9,8 @@ fioriHtmlRunner.html
 .*/fioriHtmlRunner.html
 mock_preview_sapui5.html
 .*/mock_preview_sapui5.html
-/webapp/index.html
-/webapp/resources
-/webapp/resources/*.*
-webapp/.vscode/settings.json
 node_modules/*.*
 /node_modules/*.*
 node_modules/
 *.log
+/n_odata_server.log
