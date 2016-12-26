@@ -7,18 +7,18 @@
 			<sap.ui.layout.form:SimpleForm width="50%" editable="true" layout="ResponsiveGridLayout" xmlns:sap.ui.layout.form="sap.ui.layout.form" id="__form0">
 				<sap.ui.layout.form:content>
 					<Label text="Comptes"/>
-					<ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
+					<ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{chartView>/compte}" selectionChange="onSelectionChange">
 						<items>
-							<core:ListItem text="{Description}" key="{Id}"/>
+							<core:ListItem text="{Description}" key="{id}"/>
 						</items>
 					</ComboBox>
 					<Label text="Période"/>
-					<ComboBox items="{appView>/years}" maxWidth="16rem" selectedKey="{objectView>/year}" selectionChange="onSelectionChange">
+					<ComboBox items="{appView>/years}" maxWidth="16rem" selectedKey="{chartView>/year}" selectionChange="onSelectionChange">
 						<items>
 							<core:ListItem text="{appView>description}" key="{appView>id}"/>
 						</items>
 					</ComboBox>
-					<ComboBox items="{appView>/months}" maxWidth="16rem" selectedKey="{objectView>/month}" selectionChange="onSelectionChange">
+					<ComboBox items="{appView>/months}" maxWidth="16rem" selectedKey="{chartView>/month}" selectionChange="onSelectionChange">
 						<items>
 							<core:ListItem text="{appView>description}" key="{appView>id}"/>
 						</items>
@@ -27,7 +27,26 @@
 			</sap.ui.layout.form:SimpleForm>
 			<!--<HBox displayInline="true" fitContainer="true" justifyContent="SpaceBetween" height="82%">
 				<items>			-->
-			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height='85%' width="55%" vizType='combination'>
+			<viz:VizFrame id="idVizRep" uiConfig="{applicationSet:'fiori'}" height='85%' width="45%" vizType='stacked_column'>
+				<viz:dataset>
+					<viz.data:FlattenedDataset data="{ path: '/Repartitions', sorter:[{path:'DescAffectation'},{path:'Month'}]}"  id="vizDataRep">
+						<viz.data:dimensions>
+							<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
+							<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
+						</viz.data:dimensions>
+						<viz.data:measures>
+							<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
+							<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
+						</viz.data:measures>
+					</viz.data:FlattenedDataset>
+				</viz:dataset>
+				<viz:feeds>
+					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
+					<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Mois"/>
+					<viz.feeds:FeedItem uid="color" type="Dimension" values="Affectation"/>
+				</viz:feeds>
+			</viz:VizFrame>
+			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height='85%' width="45%" vizType='combination'>
 				<viz:dataset>
 					<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
 						<viz.data:dimensions>
@@ -47,27 +66,6 @@
 					<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
 				</viz:feeds>
 			</viz:VizFrame>
-
-			<viz:VizFrame id="idVizRep" uiConfig="{applicationSet:'fiori'}" height='85%' width="100%" vizType='stacked_bar'>
-				<viz:dataset>
-					<viz.data:FlattenedDataset data="{ path: '/Repartitions', sorter:[{path:'Month'},{path:'AffectationDesc'}]}"  id="vizDataRep">
-						<viz.data:dimensions>
-							<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
-							<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
-						</viz.data:dimensions>
-						<viz.data:measures>
-							<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-							<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
-						</viz.data:measures>
-					</viz.data:FlattenedDataset>
-				</viz:dataset>
-				<viz:feeds>
-					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-					<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Mois"/>
-					<viz.feeds:FeedItem uid="color" type="Dimension" values="Affectation"/>
-				</viz:feeds>
-			</viz:VizFrame>
-
 				<!--</items>
 			</HBox>-->
 
