@@ -67,5 +67,9 @@
   "RepartitionYear": {
     "dataSource": "sqlite3",
     "public": true
+  },
+  "RepartitionAff": {
+    "dataSource": "sqlite3",
+    "public": true
   }
 }

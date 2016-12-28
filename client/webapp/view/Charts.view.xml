@@ -1,11 +1,21 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data" controllerName="budget.controller.Charts">
-	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page0">
+<mvc:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:viz="sap.viz.ui5.controls" 
+	xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" 
+	xmlns:viz.data="sap.viz.ui5.data"
+	xmlns:layout="sap.ui.layout" 
+	controllerName="budget.controller.Charts">
+	<sap.m.semantic:FullscreenPage 
+		xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page0">
 		<sap.m.semantic:content>
-
-			<sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" width="50%" editable="true" layout="ResponsiveGridLayout" id="__form0">
+			<sap.ui.layout.form:SimpleForm 
+				xmlns:sap.ui.layout.form="sap.ui.layout.form" width="50%" editable="true" layout="ResponsiveGridLayout" id="__form0">
 				<sap.ui.layout.form:content>
 					<Label text="Comptes"/>
-					<ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{chartView>/compte}" selectionChange="onSelectionChange">
+					<ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{chartView>/compte}" selectionChange="onSelectionChange" id="combCompteId">
 						<items>
 							<core:ListItem text="{Description}" key="{id}"/>
 						</items>
@@ -23,51 +33,47 @@
 					</ComboBox>
 				</sap.ui.layout.form:content>
 			</sap.ui.layout.form:SimpleForm>
-			<HBox height="81%" width="1200px" alignContent="Center" alignItems="Baseline">
-				<items>			
-			<viz:VizFrame id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="600px" width="900px" vizType="stacked_column">
-				<viz:dataset>
-					<viz.data:FlattenedDataset data="{ path: '/Repartitions', sorter:[{path:'DescAffectation'},{path:'Month'}]}" id="vizDataRep">
-						<viz.data:dimensions>
-							<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
-							<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
-						</viz.data:dimensions>
-						<viz.data:measures>
-							<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-							<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
-						</viz.data:measures>
-					</viz.data:FlattenedDataset>
-				</viz:dataset>
-				<viz:feeds>
-					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-					<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Mois"/>
-					<viz.feeds:FeedItem uid="color" type="Dimension" values="Affectation"/>
-				</viz:feeds>
-			</viz:VizFrame>
-			<viz:VizFrame id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="600px" width="900px" vizType="combination">
-				<viz:dataset>
-					<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
-						<viz.data:dimensions>
-							<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
-						</viz.data:dimensions>
-						<viz.data:measures>
-							<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-							<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
-							<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
-						</viz.data:measures>
-					</viz.data:FlattenedDataset>
-				</viz:dataset>
-				<viz:feeds>
-					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
-					<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
-					<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
-				</viz:feeds>
-			</viz:VizFrame>
+			<HBox height="81%" width="100%" alignContent="Center" alignItems="Center">
+				<items>
+						<viz:VizFrame class="chartStyle" id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="100%" width="45%" vizType="combination">
+							<viz:dataset>
+								<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
+									<viz.data:dimensions>
+										<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
+									</viz.data:dimensions>
+									<viz.data:measures>
+										<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
+										<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
+										<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
+									</viz.data:measures>
+								</viz.data:FlattenedDataset>
+							</viz:dataset>
+							<viz:feeds>
+								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
+								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
+								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
+								<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
+							</viz:feeds>
+						</viz:VizFrame>
+						<viz:VizFrame class="chartStyle" id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="100%" width="980px" vizType="column">
+							<viz:dataset>
+								<viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizDataRep">
+									<viz.data:dimensions>
+										<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
+									</viz.data:dimensions>
+									<viz.data:measures>
+										<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
+									</viz.data:measures>
+								</viz.data:FlattenedDataset>
+							</viz:dataset>
+							<viz:feeds>
+								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
+								<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Affectation"/>
+								<!--<viz.feeds:FeedItem uid="color" type="Dimension" values="Affectation"/>-->
+							</viz:feeds>
+						</viz:VizFrame>
 				</items>
 			</HBox>
-
-
 		</sap.m.semantic:content>
 	</sap.m.semantic:FullscreenPage>
 </mvc:View>

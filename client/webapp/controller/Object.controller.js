@@ -101,7 +101,7 @@ sap.ui.define([
                 this._newDialog = sap.ui.xmlfragment(this.getView().getId(), "budget.fragment.newEcriture", this);
                 this.getView().addDependent(this._newDialog);
             }
-            
+
             var oViewModel = this.getModel("objectView");
             var oLocData = {
                 montant: null,
@@ -575,6 +575,14 @@ sap.ui.define([
                     });
                     return fixedFloat.format(value);
                 });
+            chartFormatter.registerCustomFormatter("__UI5__PercentageMaxFraction2",
+                function(value) {
+                    var percentage = sap.ui.core.format.NumberFormat.getPercentInstance({
+                        style: 'precent',
+                        maxFractionDigits: 2
+                    });
+                    return percentage.format(value);
+                });
             Format.numericFormatter(chartFormatter);
         },
 
@@ -610,13 +618,35 @@ sap.ui.define([
                     formatString: "__UI5__FloatMaxFraction2",
                     bodyDimensionLabel: "Type",
                     bodyDimensionValue: "Type",
-                    bodyMesureValue:"Crédit",
-                     bodyMesureLabel:"Crédit",
+                    bodyMesureValue: "Crédit",
+                    bodyMesureLabel: "Crédit",
                 },
                 legend: {
                     visible: false
-                }
-
+                },
+                plotArea: {
+                    mode: "percentage",
+                    dataLabel: {
+                        type: "percentage",
+                        formatString: "__UI5__PercentageMaxFraction2"
+                    },
+                    colorPalette: ['rgba(124, 181, 236, 0.698)',
+                        'rgba(67, 67, 72, 0.698)',
+                        'rgba(144, 237, 125, 0.698)',
+                        'rgba(247, 163, 92, 0.698)',
+                        'rgba(128, 133, 233, 0.698)',
+                        'rgba(241, 92, 128, 0.698)',
+                        'rgba(228, 211, 84, 0.698)',
+                        'rgba(128, 133, 232, 0.698)',
+                        'rgba(141, 70, 83, 0.698)',
+                        'rgba(145, 232, 225, 0.698)',
+                        'rgba(213, 39, 26, 0.698)',
+                        'rgba(220, 220, 240, 0.698)',
+                        'rgba(27, 14, 203, 0.698)',
+                        'rgba(39, 213, 26, 0.698)',
+                        'rgba(70, 70, 75, 0.698)',
+                    ],
+                },
             });
 
             this._initCustomFormat();
