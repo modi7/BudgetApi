@@ -5,9 +5,8 @@
 	xmlns:html="http://www.w3.org/1999/xhtml" 
 	xmlns:viz="sap.viz.ui5.controls" 
 	xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" 
-	xmlns:viz.data="sap.viz.ui5.data"
-	xmlns:layout="sap.ui.layout" 
-	controllerName="budget.controller.Charts">
+	xmlns:viz.data="sap.viz.ui5.data" 
+	xmlns:layout="sap.ui.layout" controllerName="budget.controller.Charts">
 	<sap.m.semantic:FullscreenPage 
 		xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page0">
 		<sap.m.semantic:content>
@@ -35,43 +34,43 @@
 			</sap.ui.layout.form:SimpleForm>
 			<HBox height="81%" width="100%" alignContent="Center" alignItems="Center">
 				<items>
-						<viz:VizFrame class="chartStyle" id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="100%" width="45%" vizType="combination">
-							<viz:dataset>
-								<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
-									<viz.data:dimensions>
-										<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
-									</viz.data:dimensions>
-									<viz.data:measures>
-										<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-										<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
-										<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
-									</viz.data:measures>
-								</viz.data:FlattenedDataset>
-							</viz:dataset>
-							<viz:feeds>
-								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
-								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
-								<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
-							</viz:feeds>
-						</viz:VizFrame>
-						<viz:VizFrame class="chartStyle" id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="100%" width="980px" vizType="column">
-							<viz:dataset>
-								<viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizDataRep">
-									<viz.data:dimensions>
-										<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
-									</viz.data:dimensions>
-									<viz.data:measures>
-										<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-									</viz.data:measures>
-								</viz.data:FlattenedDataset>
-							</viz:dataset>
-							<viz:feeds>
-								<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-								<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Affectation"/>
-								<!--<viz.feeds:FeedItem uid="color" type="Dimension" values="Affectation"/>-->
-							</viz:feeds>
-						</viz:VizFrame>
+					<viz:VizFrame class="chartStyle" id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="100%" width="45%" vizType="combination">
+						<viz:dataset>
+							<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
+								<viz.data:dimensions>
+									<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
+								</viz.data:dimensions>
+								<viz.data:measures>
+									<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
+									<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
+									<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
+								</viz.data:measures>
+							</viz.data:FlattenedDataset>
+						</viz:dataset>
+						<viz:feeds>
+							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
+							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
+							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
+							<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
+						</viz:feeds>
+					</viz:VizFrame>
+					<viz:VizFrame class="chartStyle" id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="100%" width="980px" vizType="column">
+						<viz:dataset>
+							<viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizDataRep">
+								<viz.data:dimensions>
+									<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
+								</viz.data:dimensions>
+								<viz.data:measures>
+									<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
+								</viz.data:measures>
+							</viz.data:FlattenedDataset>
+						</viz:dataset>
+						<viz:feeds>
+							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
+							<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Affectation"/>
+							<!--<viz.feeds:FeedItem uid="color" type="Dimension" values="Affectation"/>-->
+						</viz:feeds>
+					</viz:VizFrame>
 				</items>
 			</HBox>
 		</sap.m.semantic:content>

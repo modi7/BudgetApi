@@ -171,6 +171,11 @@ sap.ui.define([
                 },
                 legend: {
                     visible: false
+                },
+                categoryAxis: {
+                    title: {
+                        visible: false
+                    },
                 }
 
             });
