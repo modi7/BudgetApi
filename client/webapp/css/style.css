@@ -35,14 +35,13 @@
 
 .tableStyle {
     float: right;
-    margin-right: 3rem;
-    width: 95%;
+    margin-right: .5rem;
     height: 90%;
 }
 
 .vboxStyle {
     /*margin-left: 1rem;*/
-    min-width: 500px;
+    min-width: 520px;
 }
 
 .tilesStyle {

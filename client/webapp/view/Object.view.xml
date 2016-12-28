@@ -74,7 +74,13 @@
 							</viz:VizFrame>
 						</items>
 					</VBox>
-					<table:Table id="table" selectionMode="MultiToggle" enableSelectAll="true" threshold="150" enableBusyIndicator="true" visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0" selectionBehavior="RowSelector" rows="{ path: 'Ecritures', sorter:{path:'Date', descending: true}, templateShareable:false, parameters: {operationMode: 'Server'} }" class="tableStyle" rowSelectionChange="onSelectionTableChange">
+					<table:Table id="table" selectionMode="MultiToggle" enableSelectAll="true" 
+					threshold="150" 
+					enableBusyIndicator="true"
+					visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0" 
+					selectionBehavior="RowSelector" rows="{ path: 'Ecritures', sorter:{path:'Date', descending: true}, templateShareable:false, parameters: {operationMode: 'Server'} }" 
+					class="tableStyle" 
+					rowSelectionChange="onSelectionTableChange" width="95%">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
 						</table:noData>
@@ -103,7 +109,7 @@
 									</ComboBox>
 								</table:template>
 							</table:Column>
-							<table:Column sortProperty="Description" filterProperty="Description" autoResizable="true">
+							<table:Column sortProperty="Description" filterProperty="Description" autoResizable="false">
 								<Label text="Description"/>
 								<table:template>
 									<Text text="{Description}"/>
