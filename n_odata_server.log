@@ -4074,6 +4074,7 @@
 [2016-12-28 16:18:01.488] [INFO] odata - processing OData V2 request of type GET
 [2016-12-28 16:18:01.488] [DEBUG] odata - baseUrl = /odata/RepartitionAff
 [2016-12-28 16:18:01.490] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+<<<<<<< HEAD
 [2016-12-28 20:59:34.829] [ERROR] console - (node:29168) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
 [2016-12-28 20:59:37.310] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
     at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
@@ -6443,3 +6444,5 @@
 [2016-12-29 00:55:40.624] [INFO] odata - processing OData V2 request of type GET
 [2016-12-29 00:55:40.624] [DEBUG] odata - baseUrl = /odata/RepartitionAff
 [2016-12-29 00:55:40.625] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+=======
+>>>>>>> 9d1c99882f0298e8b3529f7af88ea733b5e992cd
