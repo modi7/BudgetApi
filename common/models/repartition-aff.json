@@ -42,6 +42,10 @@
     "Credit": {
       "type": "number",
       "required": true
+    },
+    "pourcentage": {
+      "type": "number",
+      "required": false
     }
   },
   "validations": [],

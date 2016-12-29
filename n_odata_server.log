@@ -6446,3 +6446,1900 @@
 [2016-12-29 00:55:40.625] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
 =======
 >>>>>>> 9d1c99882f0298e8b3529f7af88ea733b5e992cd
+[2016-12-29 05:54:55.389] [ERROR] console - (node:7336) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 05:54:57.314] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 05:54:57.415] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 05:54:57.423] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 05:54:57.427] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 05:54:57.469] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 05:54:57.527] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:54:57.527] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 05:54:57.531] [TRACE] metadata - entering buildMetadata
+[2016-12-29 05:54:57.547] [TRACE] metadata - metadata xml build
+[2016-12-29 05:54:57.591] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 05:54:57.595] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 05:54:57.651] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:54:57.651] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 05:54:57.655] [INFO] console - filter: {"limit":1000}
+[2016-12-29 05:54:57.655] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:54:57.655] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 05:54:57.655] [INFO] console - filter: {"limit":1000}
+[2016-12-29 05:54:58.028] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:54:58.028] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 05:54:58.032] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:54:58.032] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 05:54:58.036] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 05:55:07.866] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:07.866] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 05:55:07.866] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:07.866] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 05:55:07.866] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 05:55:08.277] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:08.277] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:55:08.284] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:08.284] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:55:08.287] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":["null",""]}]},"limit":"200","skip":"0"}
+[2016-12-29 05:55:08.288] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:08.288] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:55:08.330] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:08.334] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:55:08.334] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":["null",""]}]},"limit":"200","skip":"0"}
+[2016-12-29 05:55:14.174] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:14.175] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:55:14.178] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:55:14.179] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:14.180] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:55:14.182] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:14.183] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:55:14.185] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:55:14.186] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:55:14.188] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:04.845] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:04.845] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:56:04.853] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:04.853] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:56:04.857] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:04.865] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:04.865] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:56:04.869] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:04.869] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:56:04.873] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:19.763] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:19.763] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:56:19.767] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:19.767] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:56:19.767] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:19.767] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:19.767] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:56:19.771] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:19.771] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:56:19.771] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:22.858] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:22.858] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:56:22.863] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:22.863] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:56:22.867] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:22.867] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:22.867] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:56:22.871] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:22.871] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:56:22.871] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:38.450] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:38.450] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:56:38.450] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:38.450] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:56:38.450] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:38.450] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:38.466] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:56:38.466] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:38.466] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:56:38.466] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:45.379] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:45.379] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:56:45.379] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:45.379] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:56:45.379] [INFO] console - filter: {"where":{"and":[{"Year":"2013"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:45.394] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:45.394] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:56:45.396] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:45.396] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:56:45.396] [INFO] console - filter: {"where":{"and":[{"Year":"2013"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:51.184] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:51.184] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:56:51.187] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:51.187] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:56:51.188] [INFO] console - filter: {"where":{"and":[{"Year":"2012"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:51.190] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:51.190] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:56:51.192] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:51.192] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:56:51.194] [INFO] console - filter: {"where":{"and":[{"Year":"2012"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:55.869] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:55.869] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:56:55.873] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:55.873] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:56:55.877] [INFO] console - filter: {"where":{"and":[{"Year":"2011"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:56:55.881] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:55.881] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:56:55.885] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:56:55.885] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:56:55.885] [INFO] console - filter: {"where":{"and":[{"Year":"2011"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:57:04.128] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:04.128] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:57:04.128] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:04.128] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:57:04.132] [INFO] console - filter: {"where":{"and":[{"Year":"2010"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:57:04.132] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:04.136] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:57:04.136] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:04.136] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:57:04.140] [INFO] console - filter: {"where":{"and":[{"Year":"2010"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:57:11.793] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:11.795] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:57:11.799] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:11.799] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:57:11.799] [INFO] console - filter: {"where":{"and":[{"Year":"2009"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:57:11.803] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:11.803] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:57:11.803] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:11.803] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:57:11.803] [INFO] console - filter: {"where":{"and":[{"Year":"2009"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:57:17.675] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:17.679] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:57:17.735] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:17.735] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:57:17.735] [INFO] console - filter: {"where":{"and":[{"Year":"2008"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:57:17.739] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:17.739] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:57:17.739] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:57:17.739] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:57:17.739] [INFO] console - filter: {"where":{"and":[{"Year":"2008"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:02.546] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:02.546] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:58:02.550] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:02.550] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:58:02.550] [INFO] console - filter: {"where":{"and":[{"Year":"2009"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:02.554] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:02.554] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:58:02.554] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:02.554] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:58:02.558] [INFO] console - filter: {"where":{"and":[{"Year":"2009"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:03.756] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:03.756] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:58:03.756] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:03.756] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:58:03.760] [INFO] console - filter: {"where":{"and":[{"Year":"2010"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:03.760] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:03.760] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:58:03.760] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:03.764] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:58:03.764] [INFO] console - filter: {"where":{"and":[{"Year":"2010"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:06.853] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:06.853] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:58:06.853] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:06.853] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:58:06.857] [INFO] console - filter: {"where":{"and":[{"Year":"2011"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:06.857] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:06.857] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:58:06.857] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:06.861] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:58:06.861] [INFO] console - filter: {"where":{"and":[{"Year":"2011"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:07.531] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:07.531] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:58:07.531] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:07.531] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:58:07.535] [INFO] console - filter: {"where":{"and":[{"Year":"2012"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:07.535] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:07.535] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:58:07.539] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:07.539] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:58:07.539] [INFO] console - filter: {"where":{"and":[{"Year":"2012"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:08.075] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.075] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:58:08.075] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.075] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:58:08.079] [INFO] console - filter: {"where":{"and":[{"Year":"2013"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:08.083] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.083] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:58:08.083] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.083] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:58:08.087] [INFO] console - filter: {"where":{"and":[{"Year":"2013"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:08.760] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.760] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:58:08.764] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.764] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:58:08.764] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:08.764] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.764] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:58:08.768] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:08.768] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:58:08.768] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:10.051] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:10.055] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:58:10.055] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:10.055] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:58:10.059] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:58:10.059] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:10.059] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:58:10.063] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:58:10.063] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:58:10.063] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:59:35.993] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:35.993] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:59:35.993] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:35.993] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:59:35.997] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:59:35.997] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:35.997] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:59:36.001] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:36.001] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:59:36.001] [INFO] console - filter: {"where":{"and":[{"Year":"2014"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:59:37.198] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.198] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:59:37.202] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.202] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:59:37.206] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:59:37.206] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.206] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:59:37.214] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.214] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:59:37.214] [INFO] console - filter: {"where":{"and":[{"Year":"2015"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:59:37.927] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.927] [DEBUG] odata - baseUrl = /odata/RepartitionYear/$count
+[2016-12-29 05:59:37.931] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.931] [DEBUG] odata - baseUrl = /odata/RepartitionYear
+[2016-12-29 05:59:37.935] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 05:59:37.935] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.935] [DEBUG] odata - baseUrl = /odata/RepartitionAff/$count
+[2016-12-29 05:59:37.939] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 05:59:37.939] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 05:59:37.943] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:00:02.346] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:00:02.346] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:00:02.346] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:10:46.945] [ERROR] console - (node:7348) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 06:10:47.934] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:10:48.014] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:10:48.022] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:10:48.026] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:10:48.062] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:10:48.102] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:10:48.102] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 06:10:48.102] [TRACE] metadata - entering buildMetadata
+[2016-12-29 06:10:48.114] [TRACE] metadata - metadata xml build
+[2016-12-29 06:10:48.170] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:10:48.182] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:10:48.315] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:10:48.315] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 06:10:48.319] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:10:48.323] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:10:48.323] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 06:10:48.323] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:10:48.595] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:10:48.595] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 06:10:48.607] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:10:48.607] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 06:10:48.607] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 06:10:58.834] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:10:58.834] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:10:58.838] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:11:39.437] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:11:39.441] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:11:39.457] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:15:51.355] [ERROR] console - (node:13108) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 06:15:52.280] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:15:52.421] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:15:52.428] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:15:52.436] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:15:52.508] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:15:52.564] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:15:52.564] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 06:15:52.564] [TRACE] metadata - entering buildMetadata
+[2016-12-29 06:15:52.572] [TRACE] metadata - metadata xml build
+[2016-12-29 06:15:52.623] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:15:52.624] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:15:52.732] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:15:52.732] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 06:15:52.736] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:15:52.740] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:15:52.740] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 06:15:52.744] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:15:53.009] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:15:53.010] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 06:15:53.015] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:15:53.015] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 06:15:53.018] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 06:15:57.110] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:15:57.123] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:15:57.123] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:30:29.277] [ERROR] console - (node:10000) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 06:30:30.292] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:30:30.460] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:30:30.474] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:30:30.492] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:30:30.574] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:30:30.669] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:30:30.669] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 06:30:30.672] [TRACE] metadata - entering buildMetadata
+[2016-12-29 06:30:30.705] [TRACE] metadata - metadata xml build
+[2016-12-29 06:30:30.761] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:30:30.768] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:30:30.841] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:30:30.841] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 06:30:30.845] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:30:30.845] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:30:30.845] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 06:30:30.845] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:30:31.057] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:30:31.057] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 06:30:31.061] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:30:31.061] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 06:30:31.061] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 06:30:38.156] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:30:38.171] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:30:38.175] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:32:33.616] [ERROR] console - (node:6368) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 06:32:34.585] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:32:34.749] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:32:34.761] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:32:34.777] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:32:34.866] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:32:34.937] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:32:34.937] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 06:32:34.937] [TRACE] metadata - entering buildMetadata
+[2016-12-29 06:32:34.965] [TRACE] metadata - metadata xml build
+[2016-12-29 06:32:35.078] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:32:35.090] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:32:35.230] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:32:35.230] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 06:32:35.230] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:32:35.234] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:32:35.234] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 06:32:35.238] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:32:35.582] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:32:35.582] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 06:32:35.590] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:32:35.590] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 06:32:35.594] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 06:32:41.655] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:32:41.655] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:32:41.659] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:42:43.303] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:42:43.303] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:42:43.329] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:51:45.923] [ERROR] console - (node:16176) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 06:51:46.870] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:51:47.036] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:51:47.040] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:51:47.048] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:51:47.089] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:51:47.137] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:51:47.137] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 06:51:47.137] [TRACE] metadata - entering buildMetadata
+[2016-12-29 06:51:47.145] [TRACE] metadata - metadata xml build
+[2016-12-29 06:51:47.189] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:51:47.193] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:51:47.261] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:51:47.261] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 06:51:47.265] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:51:47.265] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:51:47.265] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 06:51:47.269] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:51:47.489] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:51:47.489] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 06:51:47.497] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:51:47.497] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 06:51:47.497] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 06:52:17.670] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:52:17.674] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:52:17.694] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 06:54:36.244] [ERROR] console - (node:15300) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 06:54:37.171] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:54:37.271] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:54:37.275] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:54:37.283] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:54:37.327] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:54:37.431] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:54:37.431] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 06:54:37.436] [TRACE] metadata - entering buildMetadata
+[2016-12-29 06:54:37.451] [TRACE] metadata - metadata xml build
+[2016-12-29 06:54:37.511] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:54:37.515] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 06:54:37.631] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:54:37.631] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 06:54:37.646] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:54:37.648] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:54:37.648] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 06:54:37.650] [INFO] console - filter: {"limit":1000}
+[2016-12-29 06:54:37.955] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:54:37.955] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 06:54:37.967] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:54:37.967] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 06:54:37.971] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 06:54:44.002] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 06:54:44.017] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 06:54:44.021] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:01:17.506] [ERROR] console - (node:4360) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 07:01:18.405] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:01:18.539] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:01:18.547] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:01:18.551] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:01:18.587] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:01:18.659] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:18.659] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 07:01:18.659] [TRACE] metadata - entering buildMetadata
+[2016-12-29 07:01:18.675] [TRACE] metadata - metadata xml build
+[2016-12-29 07:01:18.744] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:01:18.748] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:01:18.860] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:18.860] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 07:01:18.868] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:01:18.868] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:18.868] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 07:01:18.872] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:01:19.144] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:19.144] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 07:01:19.160] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:19.160] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 07:01:19.168] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 07:01:26.539] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:26.539] [DEBUG] odata - baseUrl = /odata/SoldeMois(2201612)
+[2016-12-29 07:01:26.539] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:26.539] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures
+[2016-12-29 07:01:26.543] [INFO] console - filter: {"where":{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"CompteId":"2"}]},"limit":"151","skip":"0"}
+[2016-12-29 07:01:26.547] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:01:26.547] [DEBUG] odata - baseUrl = /odata/Balance(2)/Ecritures/$count
+[2016-12-29 07:02:01.000] [INFO] console - {"CompteId":2,"Year":2016,"Month":12,"id":2201612,"Carte":1593.77,"CarteDebite":0,"Depense":2325.18,"Entrees":5225.88,"Epargne":1000,"SoldeDebut":929.2299999999981}
+[2016-12-29 07:02:48.396] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:02:48.396] [DEBUG] odata - baseUrl = /odata/Balance(2)/Repartitions/$count
+[2016-12-29 07:02:48.432] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:02:48.432] [DEBUG] odata - baseUrl = /odata/Balance(2)/Repartitions
+[2016-12-29 07:02:48.432] [INFO] console - filter: {"where":{"and":[{"and":[{"Year":"2016"},{"Month":"12"}]},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:38:07.407] [ERROR] console - (node:11944) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 07:38:08.271] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:38:08.359] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:38:08.363] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:38:08.371] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:38:08.427] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:38:08.491] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:38:08.491] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 07:38:08.491] [TRACE] metadata - entering buildMetadata
+[2016-12-29 07:38:08.499] [TRACE] metadata - metadata xml build
+[2016-12-29 07:38:08.559] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:38:08.563] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:38:08.667] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:38:08.667] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 07:38:08.683] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:38:08.687] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:38:08.687] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 07:38:08.691] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:38:51.648] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:38:51.648] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 07:38:51.676] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:38:51.676] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 07:38:51.680] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 07:39:16.037] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:39:16.037] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:39:16.052] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:43:56.172] [ERROR] console - (node:9132) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 07:43:57.098] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:43:57.246] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:43:57.252] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:43:57.262] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:43:57.342] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:43:57.438] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:43:57.438] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 07:43:57.438] [TRACE] metadata - entering buildMetadata
+[2016-12-29 07:43:57.456] [TRACE] metadata - metadata xml build
+[2016-12-29 07:43:57.498] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:43:57.506] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:43:57.606] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:43:57.606] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 07:43:57.618] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:43:57.622] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:43:57.622] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 07:43:57.622] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:44:13.545] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:44:13.545] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 07:44:13.569] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:44:13.569] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 07:44:13.574] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 07:44:22.275] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:44:22.279] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:44:22.287] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:45:09.798] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:45:09.802] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:45:09.826] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:46:19.655] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:46:19.655] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:46:19.655] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:47:17.131] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:47:17.133] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:47:17.152] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:47:41.900] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:47:41.900] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:47:41.913] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:50:08.193] [ERROR] console - (node:10352) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 07:50:09.131] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:50:09.199] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:50:09.203] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:50:09.211] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:50:09.255] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:50:09.295] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:50:09.295] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 07:50:09.295] [TRACE] metadata - entering buildMetadata
+[2016-12-29 07:50:09.307] [TRACE] metadata - metadata xml build
+[2016-12-29 07:50:09.371] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:50:09.375] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:50:09.495] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:50:09.495] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 07:50:09.503] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:50:09.503] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:50:09.503] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 07:50:09.507] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:50:20.974] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:50:20.974] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 07:50:20.998] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:50:20.998] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 07:50:21.002] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 07:50:29.431] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:50:29.431] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:50:29.443] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:51:35.050] [ERROR] console - (node:7300) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 07:51:35.983] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:51:36.067] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:51:36.071] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:51:36.075] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:51:36.111] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:51:36.163] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:51:36.163] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 07:51:36.163] [TRACE] metadata - entering buildMetadata
+[2016-12-29 07:51:36.175] [TRACE] metadata - metadata xml build
+[2016-12-29 07:51:36.230] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:51:36.233] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:51:36.291] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:51:36.291] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 07:51:36.299] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:51:36.299] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:51:36.299] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 07:51:36.303] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:51:36.587] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:51:36.587] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 07:51:36.595] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:51:36.595] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 07:51:36.599] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 07:51:40.214] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:51:40.228] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:51:40.228] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:52:31.153] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:52:31.153] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:52:31.177] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:53:31.229] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:53:31.233] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:53:31.253] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:55:28.922] [ERROR] console - (node:5324) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 07:55:29.785] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:55:29.857] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:55:29.865] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:55:29.869] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:55:29.922] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:55:29.965] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:55:29.965] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 07:55:29.965] [TRACE] metadata - entering buildMetadata
+[2016-12-29 07:55:29.981] [TRACE] metadata - metadata xml build
+[2016-12-29 07:55:30.033] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:55:30.049] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:55:30.110] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:55:30.110] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 07:55:30.122] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:55:30.125] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:55:30.125] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 07:55:30.130] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:55:30.546] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:55:30.546] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 07:55:30.562] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:55:30.566] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 07:55:30.570] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 07:55:37.105] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:55:37.112] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:55:37.112] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
+[2016-12-29 07:57:38.142] [ERROR] console - (node:13136) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): Error: SQLITE_ERROR: near "ALTER": syntax error
+[2016-12-29 07:57:39.079] [ERROR] console - Erreur non traitée pour la demande GET /Component-preload.js : Error: Cannot GET /Component-preload.js
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:57:39.147] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:57:39.151] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:57:39.155] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:57:39.191] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr_FR.properties : Error: Cannot GET /i18n/i18n_fr_FR.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:57:39.230] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:57:39.230] [DEBUG] odata - baseUrl = /odata/$metadata
+[2016-12-29 07:57:39.232] [TRACE] metadata - entering buildMetadata
+[2016-12-29 07:57:39.247] [TRACE] metadata - metadata xml build
+[2016-12-29 07:57:39.291] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_fr.properties : Error: Cannot GET /i18n/i18n_fr.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:57:39.295] [ERROR] console - Erreur non traitée pour la demande GET /i18n/i18n_en.properties : Error: Cannot GET /i18n/i18n_en.properties
+    at raiseUrlNotFoundError (c:\node\BudgetApi\node_modules\loopback\server\middleware\url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:312:13)
+    at c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\node\BudgetApi\node_modules\loopback\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:392:12)
+    at onstat (c:\node\BudgetApi\node_modules\loopback\node_modules\express\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[2016-12-29 07:57:39.355] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:57:39.355] [DEBUG] odata - baseUrl = /odata/Affectations
+[2016-12-29 07:57:39.363] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:57:39.363] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:57:39.363] [DEBUG] odata - baseUrl = /odata/Cleaffectations
+[2016-12-29 07:57:39.367] [INFO] console - filter: {"limit":1000}
+[2016-12-29 07:57:39.551] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:57:39.551] [DEBUG] odata - baseUrl = /odata/Balance/$count
+[2016-12-29 07:57:39.555] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:57:39.555] [DEBUG] odata - baseUrl = /odata/Balance
+[2016-12-29 07:57:39.559] [INFO] console - filter: {"limit":"200","skip":"0"}
+[2016-12-29 07:57:49.798] [INFO] odata - processing OData V2 request of type GET
+[2016-12-29 07:57:49.798] [DEBUG] odata - baseUrl = /odata/RepartitionAff
+[2016-12-29 07:57:49.803] [INFO] console - filter: {"where":{"and":[{"Year":"2016"},{"CompteId":"2"}]},"limit":"200","skip":"0"}
