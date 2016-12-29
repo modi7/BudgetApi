@@ -19,6 +19,7 @@
     "loopback-connector-sqlite3": "^1.2.0",
     "loopback-datasource-juggler": "^2.39.0",
     "n-odata-server": "^0.4.0",
+    "open": "0.0.5",
     "openui5": "^1.0.0",
     "serve-favicon": "^2.0.1",
     "sqlite3": "^3.1.8",
