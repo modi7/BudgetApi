@@ -125,7 +125,7 @@ sap.ui.define([
                     bodyMesureLabel: "Crédit",
                 },
                 legend: {
-                    visible: false
+                    visible: true
                 },
                 plotArea: {
                     dataLabel: {
@@ -172,10 +172,16 @@ sap.ui.define([
                 legend: {
                     visible: false
                 },
+                valueAxis: {
+                    title: {
+                        visible: false
+                    }
+                },
                 categoryAxis: {
                     title: {
                         visible: false
                     },
+
                 }
 
             });
