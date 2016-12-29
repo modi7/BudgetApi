@@ -1,14 +1,4 @@
-<mvc:View 
-	xmlns="sap.m" 
-	xmlns:mvc="sap.ui.core.mvc" 
-	xmlns:semantic="sap.m.semantic" 
-	xmlns:core="sap.ui.core" 
-	xmlns:table="sap.ui.table" 
-	xmlns:form="sap.ui.layout.form" 
-	xmlns:viz="sap.viz.ui5.controls" 
-	xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" 
-	xmlns:viz.data="sap.viz.ui5.data" 
-	xmlns:u="sap.ui.unified" controllerName="budget.controller.Object">
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic" xmlns:core="sap.ui.core" xmlns:table="sap.ui.table" xmlns:form="sap.ui.layout.form" xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data" xmlns:u="sap.ui.unified" controllerName="budget.controller.Object">
 	<semantic:FullscreenPage id="page" navButtonPress="onNavBack" showNavButton="true" title="{i18n>objectTitle}" busy="{objectView>/busy}" busyIndicatorDelay="{objectView>/delay}" enableScrolling="false" class="sapUiContentPadding">
 		<semantic:content>
 			<ObjectHeader id="objectHeader" title="{Description}" number="{ path: 'Solde', type:'sap.ui.model.type.Float', formatOptions: { minFractionDigits: 2, maxFractionDigits: 2 } }" numberUnit="€" backgroundDesign="Transparent" icon="sap-icon://loan" condensed="true" fullScreenOptimized="true" numberState="{path:'Solde', formatter:'.formatter.soldeState'}">
@@ -74,13 +64,7 @@
 							</viz:VizFrame>
 						</items>
 					</VBox>
-					<table:Table id="table" selectionMode="MultiToggle" enableSelectAll="true" 
-					threshold="150" 
-					enableBusyIndicator="true"
-					visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0" 
-					selectionBehavior="RowSelector" rows="{ path: 'Ecritures', sorter:{path:'Date', descending: true}, templateShareable:false, parameters: {operationMode: 'Server'} }" 
-					class="tableStyle" 
-					rowSelectionChange="onSelectionTableChange" width="95%">
+					<table:Table id="table" selectionMode="MultiToggle" enableSelectAll="true" threshold="150" enableBusyIndicator="true" visibleRowCountMode="Interactive" minAutoRowCount="1" visibleRowCount="0" selectionBehavior="RowSelector" rows="{ path: 'Ecritures', sorter:{path:'Date', descending: true}, templateShareable:false, parameters: {operationMode: 'Server'} }" class="tableStyle" rowSelectionChange="onSelectionTableChange" width="95%">
 						<table:noData>
 							<BusyIndicator class="sapUiMediumMargin"/>
 						</table:noData>
@@ -130,7 +114,11 @@
 							<table:Column width="4rem" hAlign="Center">
 								<Label text="Carte"/>
 								<table:template>
-									<core:Icon src="{path:'Carte', formatter:'.formatter.isCard' }" tooltip="Carte de Credit" size="1.5rem" color="#FFD700"/>
+									<core:Icon src="{path:'Carte', formatter:'.formatter.isCard' }" tooltip="Carte de Credit" size="1.5rem" color="#FFD700">
+										<core:customData>
+										<core:CustomData value="{Carte}"/>
+										</core:customData>
+									</core:Icon>
 								</table:template>
 							</table:Column>
 						</table:columns>
@@ -138,11 +126,15 @@
 				</items>
 			</HBox>
 		</semantic:content>
+		<semantic:saveAction>
+			<semantic:SaveAction visible="{objectView>/saveVisible}" press="onSavePress"/>
+		</semantic:saveAction>		
 		<semantic:customFooterContent>
 			<u:FileUploader id="fileUploader" name="myFileUpload" tooltip="Charger un fichier ecriture" uploadComplete="handleUploadComplete" buttonOnly="true" icon="sap-icon://upload" iconOnly="true" change="onFileChange"/>
 		</semantic:customFooterContent>
-		<semantic:saveAction>
-			<semantic:SaveAction visible="{objectView>/saveVisible}" press="onSavePress"/>
-		</semantic:saveAction>
+		<semantic:customFooterContent>
+			<Button icon="sap-icon://credit-card" press="onCardPress" visible="{objectView>/carteVisible}" />
+		</semantic:customFooterContent>
+
 	</semantic:FullscreenPage>
 </mvc:View>
