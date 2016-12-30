@@ -114,7 +114,7 @@
 							<table:Column width="4rem" hAlign="Center">
 								<Label text="Carte"/>
 								<table:template>
-									<core:Icon src="{path:'Carte', formatter:'.formatter.isCard' }" tooltip="Carte de Credit" size="1.5rem" color="#FFD700">
+									<core:Icon src="{path:'Carte', formatter:'.formatter.isCard' }" tooltip="Carte de Credit" size="1.5rem" color="{path:'Carte', formatter:'.formatter.cardColor' }">
 										<core:customData>
 										<core:CustomData value="{Carte}"/>
 										</core:customData>

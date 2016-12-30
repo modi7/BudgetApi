@@ -3,7 +3,7 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 var bodyParser = require('body-parser');
-var open = require('open');
+//var open = require('open');
 //var express = require('express');
 
 var app = module.exports = loopback();
@@ -21,7 +21,7 @@ app.start = function() {
             var explorerPath = app.get('loopback-component-explorer').mountPath;
             console.log('Browse your REST API at %s%s', baseUrl, explorerPath);
         }
-        open(baseUrl);
+        //       open(baseUrl);
     });
 };
 
