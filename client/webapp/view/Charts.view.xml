@@ -1,13 +1,20 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:viz="sap.viz.ui5.controls" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz.data="sap.viz.ui5.data" xmlns="sap.uxap"
+<mvc:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:m="sap.m" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:viz="sap.viz.ui5.controls" 
+	xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" 
+	xmlns:viz.data="sap.viz.ui5.data" 
+	xmlns="sap.uxap" 
+	xmlns:blockcolor="sap.uxap.sample.SharedBlocks" 
 	xmlns:layout="sap.ui.layout" controllerName="budget.controller.Charts">
-	<sap.m.semantic:FullscreenPage xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page0">
+	<sap.m.semantic:FullscreenPage 
+		xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="__page0">
 		<sap.m.semantic:content>
 			<ObjectPageLayout id="ObjectPageLayout" alwaysShowContentHeader="true">
 				<headerTitle>
-					<ObjectPageHeader id="headerForTest" headerDesign="Light" objectTitle="Denise Smith"
-						objectSubtitle="Example of a ObjectPage with Header Content always shown on desktop" objectImageShape="Circle"
-						objectImageURI="./test-resources/sap/uxap/images/imageID_275314.png">
+					<ObjectPageHeader id="headerForTest" headerDesign="Light" objectTitle="Reporting" objectImageURI="sap-icon://business-objects-experience">
 						<actions>
 							<ObjectPageHeaderActionButton icon="sap-icon://action" text="action"/>
 							<ObjectPageHeaderActionButton icon="sap-icon://action-settings" text="settings"/>
@@ -18,12 +25,14 @@
 					</ObjectPageHeader>
 				</headerTitle>
 				<headerContent>
-					<m:Label text="Comptes"/>
-					<m:ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{chartView>/compte}" selectionChange="onSelectionChange" id="combCompteId">
-						<m:items>
-							<core:ListItem text="{Description}" key="{id}"/>
-						</m:items>
-					</m:ComboBox>
+					<layout:VerticalLayout>
+						<m:Label text="Comptes"/>
+						<m:ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{chartView>/compte}" selectionChange="onSelectionChange" id="combCompteId">
+							<m:items>
+								<core:ListItem text="{Description}" key="{id}"/>
+							</m:items>
+						</m:ComboBox>
+					</layout:VerticalLayout>
 					<layout:VerticalLayout>
 						<m:Label text="Période"/>
 						<m:ComboBox items="{appView>/years}" maxWidth="16rem" selectedKey="{chartView>/year}" selectionChange="onSelectionChange">
@@ -37,121 +46,95 @@
 							</m:items>
 						</m:ComboBox>
 					</layout:VerticalLayout>
-
 				</headerContent>
 				<sections>
-			<ObjectPageSection title="Depenses Anuelles">
-				<subSections>
-					<ObjectPageSubSection title="Repartition par mois">
-						<blocks>
-					<viz:VizFrame class="chartStyle" id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="100%" width="45%" vizType="combination">
-						<viz:dataset>
-							<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
-								<viz.data:dimensions>
-									<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
-								</viz.data:dimensions>
-								<viz.data:measures>
-									<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-									<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
-									<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
-								</viz.data:measures>
-							</viz.data:FlattenedDataset>
-						</viz:dataset>
-						<viz:feeds>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
-							<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
-						</viz:feeds>
-					</viz:VizFrame>
-						</blocks>
-					</ObjectPageSubSection>
-					<ObjectPageSubSection title="Repartition par Type">
-						<blocks>
-					<viz:VizFrame class="chartStyle" id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="100%" width="980px" vizType="column">
-						<viz:dataset>
-							<viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizDataRep">
-								<viz.data:dimensions>
-									<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
-								</viz.data:dimensions>
-								<viz.data:measures>
-									<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-								</viz.data:measures>
-							</viz.data:FlattenedDataset>
-						</viz:dataset>
-						<viz:feeds>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-							<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Affectation"/>
-						</viz:feeds>
-					</viz:VizFrame>
-						</blocks>
-					</ObjectPageSubSection>					
-				</subSections>
-			</ObjectPageSection>
+					<ObjectPageSection title="Depenses Annuelles">
+						<subSections>
+							<ObjectPageSubSection title="Repartition par mois" mode="Collapsed">
+								<blocks>
+									<viz:VizFrame class="chartStyle" id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="100%" width="60%" vizType="combination">
+										<viz:dataset>
+											<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizDataYear">
+												<viz.data:dimensions>
+													<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
+												</viz.data:dimensions>
+												<viz.data:measures>
+													<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
+													<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
+													<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
+												</viz.data:measures>
+											</viz.data:FlattenedDataset>
+										</viz:dataset>
+										<viz:feeds>
+											<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
+											<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
+											<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
+											<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
+										</viz:feeds>
+									</viz:VizFrame>
+								</blocks>
+							</ObjectPageSubSection>
+							<ObjectPageSubSection title="Repartition par Type" mode="Collapsed">
+								<blocks>
+									<viz:VizFrame class="chartStyle" id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="100%" width="100%" vizType="column">
+										<viz:dataset>
+											<viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizDataRep">
+												<viz.data:dimensions>
+													<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
+												</viz.data:dimensions>
+												<viz.data:measures>
+													<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
+												</viz.data:measures>
+											</viz.data:FlattenedDataset>
+										</viz:dataset>
+										<viz:feeds>
+											<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
+											<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Affectation"/>
+										</viz:feeds>
+									</viz:VizFrame>
+									<viz:VizFrame id="idVizFrame" uiConfig="{applicationSet:'fiori'}" height="500px" width="100%" vizType="pie">
+										<viz:dataset>
+											<viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizData">
+												<viz.data:dimensions>
+													<viz.data:DimensionDefinition name="Type" value="{DescAffectation}"/>
+												</viz.data:dimensions>
+												<viz.data:measures>
+													<viz.data:MeasureDefinition name="Débit" value="{Pourcentage}" displayValue="{DescAffectation}"/>
+												</viz.data:measures>
+												<viz.data:measures>
+													<viz.data:MeasureDefinition name="Crédit" value="{Credit}" displayValue="{DescAffectation}"/>
+												</viz.data:measures>
+											</viz.data:FlattenedDataset>
+										</viz:dataset>
+										<viz:feeds>
+											<viz.feeds:FeedItem uid="size" type="Measure" values="Débit"/>
+											<viz.feeds:FeedItem uid="color" type="Dimension" values="Type"/>
+										</viz:feeds>
+									</viz:VizFrame>
+								</blocks>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+					<ObjectPageSection title="Comparaisons">
+						<subSections>
+							<ObjectPageSubSection title="Par Année">
+								<blocks>
+									<m:Label text="Content"></m:Label>
+									<m:Text text="some content goes here..."></m:Text>
+								</blocks>
+							</ObjectPageSubSection>
+							<ObjectPageSubSection title="Par Type">
+								<blocks>
+									<m:Label text="Content"></m:Label>
+									<m:Text text="some content goes here..."></m:Text>
+								</blocks>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
 				</sections>
 			</ObjectPageLayout>
 			<!--<sap.ui.layout.form:SimpleForm 
-				xmlns:sap.ui.layout.form="sap.ui.layout.form" width="50%" editable="true" layout="ResponsiveGridLayout" id="__form0">
-				<sap.ui.layout.form:content>
-					<m:Label text="Comptes"/>
-					<m:ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{chartView>/compte}" selectionChange="onSelectionChange" id="combCompteId">
-						<m:items>
-							<core:ListItem text="{Description}" key="{id}"/>
-						</m:items>
-					</m:ComboBox>
-					<m:Label text="Période"/>
-					<m:ComboBox items="{appView>/years}" maxWidth="16rem" selectedKey="{chartView>/year}" selectionChange="onSelectionChange">
-						<m:items>
-							<core:ListItem text="{appView>description}" key="{appView>id}"/>
-						</m:items>
-					</m:ComboBox>
-					<m:ComboBox items="{appView>/months}" maxWidth="16rem" selectedKey="{chartView>/month}" selectionChange="onSelectionChange">
-						<m:items>
-							<core:ListItem text="{appView>description}" key="{appView>id}"/>
-						</m:items>
-					</m:ComboBox>
-				</sap.ui.layout.form:content>
-			</sap.ui.layout.form:SimpleForm>
-			<m:HBox height="81%" width="100%" alignContent="Center" alignItems="Center">
-				<m:items>
-					<viz:VizFrame class="chartStyle" id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="100%" width="45%" vizType="combination">
-						<viz:dataset>
-							<viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData">
-								<viz.data:dimensions>
-									<viz.data:DimensionDefinition name="Mois" value="{Month}"/>
-								</viz.data:dimensions>
-								<viz.data:measures>
-									<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-									<viz.data:MeasureDefinition name="Revenue" value="{Credit}"/>
-									<viz.data:MeasureDefinition name="Solde" value="{Solde}"/>
-								</viz.data:measures>
-							</viz.data:FlattenedDataset>
-						</viz:dataset>
-						<viz:feeds>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/>
-							<viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/>
-						</viz:feeds>
-					</viz:VizFrame>
-					<viz:VizFrame class="chartStyle" id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="100%" width="980px" vizType="column">
-						<viz:dataset>
-							<viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizDataRep">
-								<viz.data:dimensions>
-									<viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/>
-								</viz.data:dimensions>
-								<viz.data:measures>
-									<viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/>
-								</viz.data:measures>
-							</viz.data:FlattenedDataset>
-						</viz:dataset>
-						<viz:feeds>
-							<viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/>
-							<viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Affectation"/>
-						</viz:feeds>
-					</viz:VizFrame>
-				</m:items>
-			</m:HBox>-->
+			xmlns:sap.ui.layout.form="sap.ui.layout.form" width="50%" editable="true" layout="ResponsiveGridLayout" id="__form0"><sap.ui.layout.form:content><m:Label text="Comptes"/><m:ComboBox items="{/Balance}" maxWidth="16rem" selectedKey="{chartView>/compte}" selectionChange="onSelectionChange" id="combCompteId"><m:items><core:ListItem text="{Description}" key="{id}"/></m:items></m:ComboBox><m:Label text="Période"/><m:ComboBox items="{appView>/years}" maxWidth="16rem" selectedKey="{chartView>/year}" selectionChange="onSelectionChange"><m:items><core:ListItem text="{appView>description}" key="{appView>id}"/></m:items></m:ComboBox><m:ComboBox items="{appView>/months}" maxWidth="16rem" selectedKey="{chartView>/month}" selectionChange="onSelectionChange"><m:items><core:ListItem text="{appView>description}" key="{appView>id}"/></m:items></m:ComboBox></sap.ui.layout.form:content></sap.ui.layout.form:SimpleForm><m:HBox height="81%" width="100%" alignContent="Center" alignItems="Center"><m:items><viz:VizFrame class="chartStyle" id="idVizYear" uiConfig="{applicationSet:'fiori'}" height="100%" width="45%" vizType="combination"><viz:dataset><viz.data:FlattenedDataset data="{ path: '/RepartitionYear',sorter:{path:'Month'}}" id="vizData"><viz.data:dimensions><viz.data:DimensionDefinition name="Mois" value="{Month}"/></viz.data:dimensions><viz.data:measures><viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/><viz.data:MeasureDefinition name="Revenue" value="{Credit}"/><viz.data:MeasureDefinition name="Solde" value="{Solde}"/></viz.data:measures></viz.data:FlattenedDataset></viz:dataset><viz:feeds><viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/><viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Revenue"/><viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Solde"/><viz.feeds:FeedItem id="feedCategoryAxis" uid="categoryAxis" type="Dimension" values="Mois"/></viz:feeds></viz:VizFrame><viz:VizFrame class="chartStyle" id="idVizRep" uiConfig="{applicationSet:'fiori'}" height="100%" width="980px" vizType="column"><viz:dataset><viz.data:FlattenedDataset data="{ path: '/RepartitionAff', sorter:[{path:'DescAffectation'}]}" id="vizDataRep"><viz.data:dimensions><viz.data:DimensionDefinition name="Affectation" value="{DescAffectation}"/></viz.data:dimensions><viz.data:measures><viz.data:MeasureDefinition name="Dépenses" value="{Debit}"/></viz.data:measures></viz.data:FlattenedDataset></viz:dataset><viz:feeds><viz.feeds:FeedItem uid="valueAxis" type="Measure" values="Dépenses"/><viz.feeds:FeedItem uid="categoryAxis" type="Dimension" values="Affectation"/></viz:feeds></viz:VizFrame></m:items></m:HBox>-->
 		</sap.m.semantic:content>
 	</sap.m.semantic:FullscreenPage>
 </mvc:View>

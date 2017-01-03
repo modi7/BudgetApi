@@ -51,7 +51,7 @@ sap.ui.define([
                 description: "Décembre"
             }];
 
-            for (var i = new Date().getFullYear() - 10; i <= new Date().getFullYear() + 1; i++) {
+            for (var i = new Date().getFullYear() - 14; i <= new Date().getFullYear() + 1; i++) {
 
                 aYears.push({
                     id: i,

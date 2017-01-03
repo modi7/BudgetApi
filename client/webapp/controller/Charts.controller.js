@@ -95,6 +95,7 @@ sap.ui.define([
             //     and: true
             // });
             this.byId("vizData").getBinding("data").filter(oFilter);
+            this.byId("vizDataYear").getBinding("data").filter(oFilter);
             this.byId("vizDataRep").getBinding("data").filter(oFilter);
         },
 
@@ -102,9 +103,8 @@ sap.ui.define([
 
             var oVizFrameYear = this.oVizFrame = this.getView().byId("idVizYear");
             var oVizFrameRep = this.oVizFrame = this.getView().byId("idVizRep");
-            //	var oPopOver = this.getView().byId("idPopOver");
-            //	oPopOver.connect(oVizFrame.getVizUid());
-            //	oPopOver.setFormatString("__UI5__FloatMaxFraction2");
+            var oVizFrame = this.oVizFrame = this.getView().byId("idVizFrame");
+
             oVizFrameYear.setVizProperties({
                 title: {
                     visible: false,
@@ -144,6 +144,54 @@ sap.ui.define([
                     },
                 }
 
+            });
+
+            oVizFrame.setVizProperties({
+                title: {
+                    visible: false,
+                    text: "R\xE9partition"
+                },
+                interaction: {
+                    behaviorType: null,
+                    selectability: {
+                        mode: "SINGLE"
+                    }
+                },
+                tooltip: {
+                    visible: true,
+                    formatString: "__UI5__FloatMaxFraction2",
+                    bodyDimensionLabel: "Type",
+                    bodyDimensionValue: "Type",
+                    bodyMesureValue: "Cr\xE9dit",
+                    bodyMesureLabel: "Cr\xE9dit"
+                },
+                legend: {
+                    visible: false
+                },
+                plotArea: {
+                    mode: "percentage",
+                    dataLabel: {
+                        type: "percentage",
+                        formatString: "__UI5__PercentageMaxFraction2"
+                    },
+                    colorPalette: [
+                        "rgba(124, 181, 236, 0.698)",
+                        "rgba(67, 67, 72, 0.698)",
+                        "rgba(144, 237, 125, 0.698)",
+                        "rgba(247, 163, 92, 0.698)",
+                        "rgba(128, 133, 233, 0.698)",
+                        "rgba(241, 92, 128, 0.698)",
+                        "rgba(228, 211, 84, 0.698)",
+                        "rgba(128, 133, 232, 0.698)",
+                        "rgba(141, 70, 83, 0.698)",
+                        "rgba(145, 232, 225, 0.698)",
+                        "rgba(213, 39, 26, 0.698)",
+                        "rgba(220, 220, 240, 0.698)",
+                        "rgba(27, 14, 203, 0.698)",
+                        "rgba(39, 213, 26, 0.698)",
+                        "rgba(70, 70, 75, 0.698)"
+                    ]
+                }
             });
 
             oVizFrameRep.setVizProperties({

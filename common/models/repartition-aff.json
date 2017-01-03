@@ -1,55 +1,55 @@
 {
-  "name": "RepartitionAff",
-  "plural": "RepartitionAff",
-  "base": "PersistedModel",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "id": {
-      "type": "number",
-      "required": true
+    "name": "RepartitionAff",
+    "plural": "RepartitionAff",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
     },
-    "CompteId": {
-      "type": "number",
-      "required": true
+    "properties": {
+        "id": {
+            "type": "number",
+            "required": true
+        },
+        "CompteId": {
+            "type": "number",
+            "required": true
+        },
+        "Description": {
+            "type": "string",
+            "required": true
+        },
+        "Kind": {
+            "type": "string",
+            "required": true
+        },
+        "Year": {
+            "type": "number",
+            "required": true
+        },
+        "AffectationId": {
+            "type": "number",
+            "required": true
+        },
+        "DescAffectation": {
+            "type": "string",
+            "required": true
+        },
+        "Debit": {
+            "type": "number",
+            "required": true
+        },
+        "Credit": {
+            "type": "number",
+            "required": true
+        },
+        "Pourcentage": {
+            "type": "number",
+            "required": false
+        }
     },
-    "Description": {
-      "type": "string",
-      "required": true
-    },
-    "Kind": {
-      "type": "string",
-      "required": true
-    },
-    "Year": {
-      "type": "number",
-      "required": true
-    },
-    "AffectationId": {
-      "type": "number",
-      "required": true
-    },
-    "DescAffectation": {
-      "type": "string",
-      "required": true
-    },
-    "Debit": {
-      "type": "number",
-      "required": true
-    },
-    "Credit": {
-      "type": "number",
-      "required": true
-    },
-    "pourcentage": {
-      "type": "number",
-      "required": false
-    }
-  },
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
 }
