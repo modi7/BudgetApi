@@ -98,7 +98,7 @@ sap.ui.define([
                             //Debit: aColumns[6].indexOf("-") !== -1 ? aColumns[6].replace(/-/g, "") : null,
                             Credit: aColumns[6].indexOf("-") === -1 ? Math.abs(parseFloat(aColumns[6].replace(/\s/g, ""))) : null,
                             Description: aColumns[2],
-                            Carte: aColumns[8] === "CARTE PREMIER" ? "O" : null
+                            Carte: aColumns[8] === "CARTE PREMIER" || aColumns[8] === "Carte Visa Premier" ? "O" : null
                         });
                     }
                 }, this);
