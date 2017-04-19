@@ -75,9 +75,9 @@ sap.ui.define([
                         value1: this.getModel("chartView").getProperty("/year")
                     }),
                     new Filter({
-                        path: "CompteId",
+                        path: "Kind",
                         operator: "EQ",
-                        value1: this.getModel("chartView").getProperty("/compte")
+                        value1: "N" //this.getModel("chartView").getProperty("/compte")
                     })
                 ],
                 and: true

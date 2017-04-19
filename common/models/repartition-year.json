@@ -10,13 +10,6 @@
     "id": {
       "type": "number"
     },
-    "CompteId": {
-      "type": "number",
-      "required": true
-    },
-    "Description": {
-      "type": "string"
-    },
     "Kind": {
       "type": "string"
     },

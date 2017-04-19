@@ -11,14 +11,6 @@
             "type": "number",
             "required": true
         },
-        "CompteId": {
-            "type": "number",
-            "required": true
-        },
-        "Description": {
-            "type": "string",
-            "required": true
-        },
         "Kind": {
             "type": "string",
             "required": true
