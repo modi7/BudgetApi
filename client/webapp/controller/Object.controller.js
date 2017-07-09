@@ -32,8 +32,8 @@ sap.ui.define([
                 oViewModel = new JSONModel({
                     busy: true,
                     delay: 0,
-                    year: dDate.getFullYear(),
-                    month: dDate.getMonth() + 1,
+                    year: null,
+                    month: null,
                     deleteVisible: false,
                     saveVisible: false,
                     selectedType: null,
@@ -425,8 +425,13 @@ sap.ui.define([
             this.byId("fileUploader").setValue(null);
             var sObjectId = oEvent.getParameter("arguments").objectId;
             var oViewModel = this.getModel("objectView");
-            oViewModel.setProperty("/year", new Date().getFullYear());
-            oViewModel.setProperty("/month", new Date().getMonth() + 1);
+            if (oViewModel.getProperty("/year") === null) {
+                oViewModel.setProperty("/year", new Date().getFullYear());
+            }
+            if (oViewModel.getProperty("/month") === null) {
+                oViewModel.setProperty("/month", new Date().getMonth() + 1);
+            }
+
             this.getModel().metadataLoaded().then(function() {
                 var sObjectPath = this.getModel().createKey("Balance", {
                     id: sObjectId
